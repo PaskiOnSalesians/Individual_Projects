@@ -16,7 +16,7 @@ namespace PracticaRSA
     {
         private static RSACryptoServiceProvider rsaEnc = new RSACryptoServiceProvider();
         string xmlKey;
-        
+        byte[] dataEncrypted;
 
         public frmEncriptar()
         {
@@ -39,14 +39,15 @@ namespace PracticaRSA
             UnicodeEncoding ByteConverter = new UnicodeEncoding();
             byte[] dataToEncrypt = ByteConverter.GetBytes(tbx_original.Text);
 
-            byte[] dataEncrypted = rsaEnc.Encrypt(dataToEncrypt, false);
+            dataEncrypted = rsaEnc.Encrypt(dataToEncrypt, false);
             tbx_crypted.Text = BitConverter.ToString(dataEncrypted);
             //encryptedData = rsaEnc.Encrypt(dataToEncrypt, false);
         }
 
         private void btn_send_Click(object sender, EventArgs e)
         {
-            frmDesencriptar.EncryptedMessage = this.tbx_crypted.Text;
+            //frmDesencriptar.EncryptedMessage = this.tbx_crypted.Text;
+            frmDesencriptar.EncryptedMessage = dataEncrypted;
         }
     }
 }

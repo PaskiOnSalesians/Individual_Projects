@@ -21,7 +21,9 @@ namespace PracticaRSA
 
         public static string folderKey;
 
-        public static string EncryptedMessage;
+        public static byte[] EncryptedMessage;
+
+        bool KeysGenerated = false;
 
         public frmDesencriptar()
         {
@@ -58,6 +60,25 @@ namespace PracticaRSA
             File.WriteAllText(tbx_routeXML.Text, publicKey);
 
             MessageBox.Show("Keys Generated!");
+
+            KeysGenerated = true;
+        }
+
+        private void frmDesencriptar_Activated(object sender, EventArgs e)
+        {
+            if(KeysGenerated == true)
+            {
+                this.tbx_crypted.Text = BitConverter.ToString(EncryptedMessage);
+            }
+        }
+
+        private void btn_decrypt_Click(object sender, EventArgs e)
+        {
+            // tbx_crypted.Text = BitConverter.ToString(dataEncrypted);
+            byte[] DataDecrypted;
+            DataDecrypted = rsa.Decrypt(EncryptedMessage, false);
+
+            tbx_decrypted.Text = Encoding.Default.GetString(DataDecrypted);
         }
     }
 }

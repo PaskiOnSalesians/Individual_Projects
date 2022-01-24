@@ -52,6 +52,7 @@
             this.btn_decrypt.TabIndex = 20;
             this.btn_decrypt.Text = "Desencriptar";
             this.btn_decrypt.UseVisualStyleBackColor = true;
+            this.btn_decrypt.Click += new System.EventHandler(this.btn_decrypt_Click);
             // 
             // tbx_decrypted
             // 
@@ -174,6 +175,7 @@
             this.Controls.Add(this.pnl_keys);
             this.Name = "frmDesencriptar";
             this.Text = "Desencriptar";
+            this.Activated += new System.EventHandler(this.frmDesencriptar_Activated);
             this.pnl_keys.ResumeLayout(false);
             this.pnl_keys.PerformLayout();
             this.ResumeLayout(false);
