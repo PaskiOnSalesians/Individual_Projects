@@ -46,8 +46,8 @@ namespace PracticaRSA
 
         private void btn_send_Click(object sender, EventArgs e)
         {
-            //frmDesencriptar.EncryptedMessage = this.tbx_crypted.Text;
-            frmDesencriptar.EncryptedMessage = dataEncrypted;
+            
+            //frmDesencriptar.EncryptedMessage = dataEncrypted;
         }
     }
 }

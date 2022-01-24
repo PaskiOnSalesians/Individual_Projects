@@ -14,14 +14,20 @@ namespace PracticaRSA
 {
     public partial class frmDesencriptar : Form
     {
-        string keyName;
-
         private static CspParameters cspp = new CspParameters();
         private static RSACryptoServiceProvider rsa = new RSACryptoServiceProvider(cspp);
 
         public static string folderKey;
 
-        public static byte[] EncryptedMessage;
+        //public static byte[] EncryptedMessage;
+
+        private byte[] _EncryptedMessage;
+
+        public byte[] EncryptedMessage
+        {
+            get { return _EncryptedMessage; }
+            set { _EncryptedMessage = value; }
+        }
 
         bool KeysGenerated = false;
 
@@ -29,8 +35,7 @@ namespace PracticaRSA
         {
             InitializeComponent();
 
-            keyName = tbx_container.Text;
-
+            string keyName = tbx_container.Text;
             CryptoRSA(keyName);
         }
 
@@ -75,8 +80,14 @@ namespace PracticaRSA
         private void btn_decrypt_Click(object sender, EventArgs e)
         {
             // tbx_crypted.Text = BitConverter.ToString(dataEncrypted);
-            byte[] DataDecrypted;
-            DataDecrypted = rsa.Decrypt(EncryptedMessage, false);
+
+            CspParameters _cspp = new CspParameters();
+            string _keyName = tbx_container.Text;
+
+            cspp.KeyContainerName = _keyName;
+            RSACryptoServiceProvider _rsa = new RSACryptoServiceProvider(_cspp);
+
+            byte[] DataDecrypted = _rsa.Decrypt(EncryptedMessage, false);
 
             tbx_decrypted.Text = Encoding.Default.GetString(DataDecrypted);
         }
