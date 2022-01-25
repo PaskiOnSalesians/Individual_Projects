@@ -17,6 +17,8 @@ namespace PracticaRSA
         private static CspParameters cspp = new CspParameters();
         private static RSACryptoServiceProvider rsa = new RSACryptoServiceProvider(cspp);
 
+        string keyName;
+
         public static string folderKey;
 
         //public static byte[] EncryptedMessage;
@@ -35,7 +37,7 @@ namespace PracticaRSA
         {
             InitializeComponent();
 
-            string keyName = tbx_container.Text;
+            keyName = tbx_container.Text;
             CryptoRSA(keyName);
         }
 
@@ -81,13 +83,13 @@ namespace PracticaRSA
         {
             // tbx_crypted.Text = BitConverter.ToString(dataEncrypted);
 
-            CspParameters _cspp = new CspParameters();
-            string _keyName = tbx_container.Text;
+            CspParameters cspp = new CspParameters();
+            //string keyName = tbx_container.Text;
 
-            cspp.KeyContainerName = _keyName;
-            RSACryptoServiceProvider _rsa = new RSACryptoServiceProvider(_cspp);
+            cspp.KeyContainerName = keyName;
+            RSACryptoServiceProvider rsa = new RSACryptoServiceProvider(cspp);
 
-            byte[] DataDecrypted = _rsa.Decrypt(EncryptedMessage, false);
+            byte[] DataDecrypted = rsa.Decrypt(EncryptedMessage, false);
 
             tbx_decrypted.Text = Encoding.Default.GetString(DataDecrypted);
         }

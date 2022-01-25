@@ -46,7 +46,10 @@ namespace PracticaRSA
 
         private void btn_send_Click(object sender, EventArgs e)
         {
-            
+            foreach(TextBox)
+            {
+
+            }
             //frmDesencriptar.EncryptedMessage = dataEncrypted;
         }
     }
