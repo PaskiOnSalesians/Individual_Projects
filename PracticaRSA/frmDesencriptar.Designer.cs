@@ -197,6 +197,6 @@
         private System.Windows.Forms.TextBox tbx_container;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
-        public System.Windows.Forms.TextBox tbx_crypted;
+        private System.Windows.Forms.TextBox tbx_crypted;
     }
 }

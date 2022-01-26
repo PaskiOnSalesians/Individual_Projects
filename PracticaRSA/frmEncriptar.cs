@@ -10,6 +10,8 @@ using System.Windows.Forms;
 using System.Security.Cryptography;
 using System.IO;
 
+
+
 namespace PracticaRSA
 {
     public partial class frmEncriptar : Form
@@ -17,6 +19,7 @@ namespace PracticaRSA
         private static RSACryptoServiceProvider rsaEnc = new RSACryptoServiceProvider();
         string xmlKey;
         byte[] dataEncrypted;
+        string address;
 
         public frmEncriptar()
         {
@@ -25,31 +28,72 @@ namespace PracticaRSA
 
         private void btn_obtainKey_Click(object sender, EventArgs e)
         {
-            xmlKey = File.ReadAllText(frmDesencriptar.folderKey);
-            rsaEnc.FromXmlString(xmlKey);
+            try
+            {
+                OpenFileDialog fileExplorer = new OpenFileDialog();
+                fileExplorer.DefaultExt = "xml";
+                fileExplorer.InitialDirectory = @"C:\Desktop";
+                fileExplorer.Filter = "XML files (*.xml)|*.xml|All files (*.*)|*.*";
+                fileExplorer.RestoreDirectory = true;
+
+                if (fileExplorer.ShowDialog() == DialogResult.OK)
+                {
+                    address = Path.GetFullPath(fileExplorer.FileName);
+                }
+
+                xmlKey = File.ReadAllText(address);
+                rsaEnc.FromXmlString(xmlKey);
+            }
+            catch
+            {
+                MessageBox.Show("No s'ha pogut carregar la clau.", "DEncrypter - Error 07");
+            }
+
         }
 
         private void btn_showKey_Click(object sender, EventArgs e)
         {
-            tbx_pubkey.Text = xmlKey;
+            try
+            {
+                tbx_pubkey.Text = xmlKey;
+            }
+            catch
+            {
+                MessageBox.Show("No es pot mostra la clau.", "DEncrypter - Error 11");
+            }
         }
 
         private void btn_encrypt_Click(object sender, EventArgs e)
         {
-            UnicodeEncoding ByteConverter = new UnicodeEncoding();
-            byte[] dataToEncrypt = ByteConverter.GetBytes(tbx_original.Text);
+            try
+            {
+                UnicodeEncoding ByteConverter = new UnicodeEncoding();
+                byte[] dataToEncrypt = ByteConverter.GetBytes(tbx_original.Text);
 
-            dataEncrypted = rsaEnc.Encrypt(dataToEncrypt, false);
-            tbx_crypted.Text = BitConverter.ToString(dataEncrypted);
-            //encryptedData = rsaEnc.Encrypt(dataToEncrypt, false);
+                dataEncrypted = rsaEnc.Encrypt(dataToEncrypt, false);
+                tbx_crypted.Text = BitConverter.ToString(dataEncrypted);
+                //encryptedData = rsaEnc.Encrypt(dataToEncrypt, false);
+            }
+            catch
+            {
+                MessageBox.Show("No es pot encriptar el missatge.", "DEncrypter - Error 13");
+            }
         }
 
         private void btn_send_Click(object sender, EventArgs e)
         {
-            foreach(TextBox)
+            try
             {
+                foreach (TextBox txtBox in )
+                {
 
+                }
             }
+            catch
+            {
+                MessageBox.Show("No s'ha pogut enviar el missatge encriptat.", "DEncrypt - Error 17");
+            }
+
             //frmDesencriptar.EncryptedMessage = dataEncrypted;
         }
     }

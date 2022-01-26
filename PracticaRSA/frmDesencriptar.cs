@@ -17,9 +17,9 @@ namespace PracticaRSA
         private static CspParameters cspp = new CspParameters();
         private static RSACryptoServiceProvider rsa = new RSACryptoServiceProvider(cspp);
 
-        string keyName;
+        string keyName, fileAddress;
 
-        public static string folderKey;
+        public static string fileKey;
 
         //public static byte[] EncryptedMessage;
 
@@ -50,25 +50,47 @@ namespace PracticaRSA
 
         private void btn_routeXML_Click(object sender, EventArgs e)
         {
-            FolderBrowserDialog fileExplorer = new FolderBrowserDialog();
-
-            if(fileExplorer.ShowDialog() == DialogResult.OK)
+            try
             {
-                tbx_routeXML.Text = fileExplorer.SelectedPath + "\\" + tbx_container.Text + ".xml";
-                folderKey = tbx_routeXML.Text;
+                SaveFileDialog fileExplorer = new SaveFileDialog();
+
+                fileExplorer.DefaultExt = "xml";
+                fileExplorer.InitialDirectory = @"C:\Desktop";
+                fileExplorer.Filter = "XML files (*.xml)|*.xml|All files (*.*)|*.*";
+                fileExplorer.RestoreDirectory = true;
+
+                if (fileExplorer.ShowDialog() == DialogResult.OK)
+                {
+                    fileAddress = Path.GetFullPath(fileExplorer.FileName.ToString());
+                }
+
+                tbx_routeXML.Text = fileAddress;
+                fileKey = tbx_routeXML.Text;
             }
+            catch
+            {
+                MessageBox.Show("No es pot carregar l'arxiu XML.", "DEncrypt - Error 02");
+            }
+            
         }
 
         private void btn_generate_Click(object sender, EventArgs e)
         {
-            string publicKey = rsa.ToXmlString(false);
-            string privateKey = rsa.ToXmlString(true);
+            try
+            {
+                string publicKey = rsa.ToXmlString(false);
+                string privateKey = rsa.ToXmlString(true);
 
-            File.WriteAllText(tbx_routeXML.Text, publicKey);
+                File.WriteAllText(tbx_routeXML.Text, publicKey);
 
-            MessageBox.Show("Keys Generated!");
+                MessageBox.Show("Keys Generated!");
 
-            KeysGenerated = true;
+                KeysGenerated = true;
+            }
+            catch
+            {
+                MessageBox.Show("No es poden generar les claus.", "DEncrypt - Error 03");
+            }
         }
 
         private void frmDesencriptar_Activated(object sender, EventArgs e)
@@ -81,17 +103,24 @@ namespace PracticaRSA
 
         private void btn_decrypt_Click(object sender, EventArgs e)
         {
-            // tbx_crypted.Text = BitConverter.ToString(dataEncrypted);
+            try
+            {
+                // tbx_crypted.Text = BitConverter.ToString(dataEncrypted);
 
-            CspParameters cspp = new CspParameters();
-            //string keyName = tbx_container.Text;
+                CspParameters cspp = new CspParameters();
+                //string keyName = tbx_container.Text;
 
-            cspp.KeyContainerName = keyName;
-            RSACryptoServiceProvider rsa = new RSACryptoServiceProvider(cspp);
+                cspp.KeyContainerName = keyName;
+                RSACryptoServiceProvider rsa = new RSACryptoServiceProvider(cspp);
 
-            byte[] DataDecrypted = rsa.Decrypt(EncryptedMessage, false);
+                byte[] DataDecrypted = rsa.Decrypt(EncryptedMessage, false);
 
-            tbx_decrypted.Text = Encoding.Default.GetString(DataDecrypted);
+                tbx_decrypted.Text = Encoding.Default.GetString(DataDecrypted);
+            }
+            catch
+            {
+                MessageBox.Show("No es pot desencriptar.","DEncrypt - Error 05");
+            }
         }
     }
 }
