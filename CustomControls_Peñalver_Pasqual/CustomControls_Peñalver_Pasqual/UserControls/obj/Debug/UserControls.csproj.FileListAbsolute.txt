@@ -1,0 +1,17 @@
+C:\Users\Paski\source\repos\UserControls\bin\Debug\UserControls.dll
+C:\Users\Paski\source\repos\UserControls\bin\Debug\UserControls.pdb
+C:\Users\Paski\source\repos\UserControls\obj\Debug\UserControls.LlensaApp.resources
+C:\Users\Paski\source\repos\UserControls\obj\Debug\UserControls.SWCodi.resources
+C:\Users\Paski\source\repos\UserControls\obj\Debug\UserControls.csproj.GenerateResource.cache
+C:\Users\Paski\source\repos\UserControls\obj\Debug\UserControls.csproj.CoreCompileInputs.cache
+C:\Users\Paski\source\repos\UserControls\obj\Debug\UserControls.dll
+C:\Users\Paski\source\repos\UserControls\obj\Debug\UserControls.pdb
+C:\Users\Paski\source\repos\ProyectoCustomControlsIndv\dll\UserControls.dll
+C:\Users\Paski\source\repos\ProyectoCustomControlsIndv\dll\UserControls.pdb
+C:\Users\Paski\source\repos\ProyectoCustomControlsIndv\UserControls\obj\Debug\UserControls.LlensaApp.resources
+C:\Users\Paski\source\repos\ProyectoCustomControlsIndv\UserControls\obj\Debug\UserControls.SWCodi.resources
+C:\Users\Paski\source\repos\ProyectoCustomControlsIndv\UserControls\obj\Debug\UserControls.csproj.GenerateResource.cache
+C:\Users\Paski\source\repos\ProyectoCustomControlsIndv\UserControls\obj\Debug\UserControls.csproj.CoreCompileInputs.cache
+C:\Users\Paski\source\repos\ProyectoCustomControlsIndv\UserControls\obj\Debug\UserControls.dll
+C:\Users\Paski\source\repos\ProyectoCustomControlsIndv\UserControls\obj\Debug\UserControls.pdb
+C:\Users\Paski\source\repos\ProyectoCustomControlsIndv\UserControls\obj\Debug\UserControls.csproj.AssemblyReference.cache

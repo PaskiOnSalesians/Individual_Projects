@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31729.503
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProvaCustomControls", "ProvaCustomControls.csproj", "{590DE8F3-6CD3-4780-8FEE-78F0741E7730}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UserControls", "..\UserControls\UserControls.csproj", "{68D0D7A6-8E74-4B38-8AC2-99A46B893503}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InheritedControls", "..\InheritedControls\InheritedControls.csproj", "{D67E4699-0DB7-479B-A28D-53F93BBE8355}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProvaTest", "..\ProvaTest\ProvaTest.csproj", "{83147C2C-5B3A-46EB-B061-58981CB00A16}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{590DE8F3-6CD3-4780-8FEE-78F0741E7730}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{590DE8F3-6CD3-4780-8FEE-78F0741E7730}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{590DE8F3-6CD3-4780-8FEE-78F0741E7730}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{590DE8F3-6CD3-4780-8FEE-78F0741E7730}.Release|Any CPU.Build.0 = Release|Any CPU
+		{68D0D7A6-8E74-4B38-8AC2-99A46B893503}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{68D0D7A6-8E74-4B38-8AC2-99A46B893503}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{68D0D7A6-8E74-4B38-8AC2-99A46B893503}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{68D0D7A6-8E74-4B38-8AC2-99A46B893503}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D67E4699-0DB7-479B-A28D-53F93BBE8355}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D67E4699-0DB7-479B-A28D-53F93BBE8355}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D67E4699-0DB7-479B-A28D-53F93BBE8355}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D67E4699-0DB7-479B-A28D-53F93BBE8355}.Release|Any CPU.Build.0 = Release|Any CPU
+		{83147C2C-5B3A-46EB-B061-58981CB00A16}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{83147C2C-5B3A-46EB-B061-58981CB00A16}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{83147C2C-5B3A-46EB-B061-58981CB00A16}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{83147C2C-5B3A-46EB-B061-58981CB00A16}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E1011068-177A-4FC1-BF2C-46E16CF41223}
+	EndGlobalSection
+EndGlobal

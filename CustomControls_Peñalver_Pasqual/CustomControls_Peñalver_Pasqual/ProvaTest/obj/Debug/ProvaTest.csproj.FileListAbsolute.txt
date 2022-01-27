@@ -1,0 +1,10 @@
+C:\Users\Paski\source\repos\ProyectoCustomControlsIndv\ProvaTest\obj\Debug\ProvaTest.Properties.Resources.resources
+C:\Users\Paski\source\repos\ProyectoCustomControlsIndv\ProvaTest\obj\Debug\ProvaTest.csproj.GenerateResource.cache
+C:\Users\Paski\source\repos\ProyectoCustomControlsIndv\ProvaTest\obj\Debug\ProvaTest.csproj.CoreCompileInputs.cache
+C:\Users\Paski\source\repos\ProyectoCustomControlsIndv\dll\ProvaTest.pdb
+C:\Users\Paski\source\repos\ProyectoCustomControlsIndv\ProvaTest\obj\Debug\ProvaTest.pdb
+C:\Users\Paski\source\repos\ProyectoCustomControlsIndv\dll\ProvaTest.dll.config
+C:\Users\Paski\source\repos\ProyectoCustomControlsIndv\dll\ProvaTest.dll
+C:\Users\Paski\source\repos\ProyectoCustomControlsIndv\ProvaTest\obj\Debug\ProvaTest.csproj.AssemblyReference.cache
+C:\Users\Paski\source\repos\ProyectoCustomControlsIndv\ProvaTest\obj\Debug\ProvaTest.ProvaTest.resources
+C:\Users\Paski\source\repos\ProyectoCustomControlsIndv\ProvaTest\obj\Debug\ProvaTest.dll
