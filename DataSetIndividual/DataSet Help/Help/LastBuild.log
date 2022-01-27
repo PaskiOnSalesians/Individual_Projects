@@ -1,0 +1,491 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shfbBuild product="Sandcastle Help File Builder and Tools" version="2021.11.7.0" projectFile="C:\Users\Paski\source\repos\DataSet Help\DataSet Help.shfbproj" started="19/11/2021 20:02:19">
+<buildStep step="Initializing">
+Finding tools...
+The Sandcastle tools are located in &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder&#39;
+Locating components in the following folder(s):
+    C:\Users\Paski\source\repos\DataSet Help
+    C:\ProgramData\EWSoftware\Sandcastle Help File Builder\Components and Plug-Ins
+    C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components
+Using framework reflection data for &#39;.NET Framework 4.7.2&#39; located in &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Data\.NETFramework&#39;
+Using presentation style &#39;VS2013&#39; located in &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013&#39;
+Loading and initializing plug-ins...
+Lightweight Website Style Version 2021.11.7.0
+Copyright &#169; 2006-2021, Eric Woodruff, All Rights Reserved
+Portions Copyright &#169; 2014, Sam Harwell, All Rights Reserved
+</buildStep>
+<buildStep step="ClearWorkFolder">
+Clearing working folder...
+-------------------------------
+Clearing any prior web/markdown output...
+</buildStep>
+<buildStep step="ValidatingDocumentationSources">
+Validating and copying documentation source information
+Source: C:\Users\Paski\source\repos\DatasetIndividual\bin\Debug\DatasetIndividual.exe
+    Found assembly &#39;C:\Users\Paski\source\repos\DatasetIndividual\bin\Debug\DatasetIndividual.exe&#39;
+Source: C:\Users\Paski\source\repos\DatasetIndividual\bin\Debug\DatasetIndividual.xml
+Source: C:\Users\Paski\source\repos\DatasetIndividual\bin\Debug\InheritedControls.dll
+    Found assembly &#39;C:\Users\Paski\source\repos\DatasetIndividual\bin\Debug\InheritedControls.dll&#39;
+
+Copying XML comments files
+    C:\Users\Paski\source\repos\DatasetIndividual\bin\Debug\DatasetIndividual.xml -&gt; C:\Users\Paski\source\repos\DataSet Help\Help\Working\DatasetIndividual.xml
+</buildStep>
+<buildStep step="GenerateSharedContent">
+Generating shared content files (es-ES, Espa&#241;ol (Espa&#241;a))...
+<plugIn name="Lightweight Website Style" behavior="After" priority="1000">
+</plugIn>    Last step completed in 00:00:00,0349
+</buildStep>
+<buildStep step="GenerateApiFilter">
+Generating API filter for MRefBuilder...
+    Last step completed in 00:00:00,0080
+</buildStep>
+<buildStep step="GenerateReflectionInfo">
+Generating reflection information...
+[C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\MSBuild.exe - GenerateRefInfo-5638a8a6-9782-4ba3-9184-9556b6ebcba9.proj]
+Compilaci&#162;n iniciada a las 19/11/2021 20:02:21.
+Proyecto &quot;C:\Users\Paski\source\repos\DataSet Help\Help\Working\GenerateRefInfo-5638a8a6-9782-4ba3-9184-9556b6ebcba9.proj&quot; en nodo 1 (destinos predeterminados).
+PrepareForBuild:
+  Creando directorio &quot;obj\Debug\&quot;.
+GenerateBindingRedirects:
+  No hay redirecciones de enlace sugeridas procedentes de ResolveAssemblyReferences.
+GenerateRefInfo:
+  Microsoft.Build (v16.11.1+3e40a09f830fce5bb34916a4d20255c0876c9b5d)
+  &#184; Microsoft Corporation. All rights reserved.
+  No source code context base path specified.  Source context information is unavailable.
+  Loaded 2 assemblies for reflection and 1 dependency assemblies.
+  Wrote information on 3 namespaces, 11 types, and 84 members
+  Merging duplicate type and member information
+  Merged 0 duplicate type(s) and 0 duplicate member(s)
+Compilaci&#162;n del proyecto terminada &quot;C:\Users\Paski\source\repos\DataSet Help\Help\Working\GenerateRefInfo-5638a8a6-9782-4ba3-9184-9556b6ebcba9.proj&quot; (destinos predeterminados).
+    Last step completed in 00:00:01,2170
+</buildStep>
+<buildStep step="ApplyDocumentModel">
+Applying document model to reflection output...
+    Last step completed in 00:00:00,1789
+</buildStep>
+<buildStep step="AddApiTopicFilenames">
+Adding topic filenames to API members...
+    Last step completed in 00:00:00,1457
+</buildStep>
+<buildStep step="GenerateApiTopicManifest">
+Generating API topic manifest...
+    Last step completed in 00:00:00,1376
+</buildStep>
+<buildStep step="GenerateNamespaceSummaries">
+Generating namespace summary information...
+    Last step completed in 00:00:00,0459
+</buildStep>
+<buildStep step="CopyConceptualContent">
+Copying conceptual content...
+Copying standard token shared content file...
+Checking for other token files...
+Checking for code snippets files...
+Copying images and creating the media map file...
+Generating conceptual topic files
+    Parsing topic file &#39;C:\Users\Paski\source\repos\DataSet Help\Content\Welcome.aml&#39;
+    C:\Users\Paski\source\repos\DataSet Help\Content\Welcome.aml -&gt; C:\Users\Paski\source\repos\DataSet Help\Help\Working\ddueXml\d78bf204-fbaa-4d17-aeda-8c198f7612fd.xml
+    Parsing topic file &#39;C:\Users\Paski\source\repos\DataSet Help\Content\VersionHistory\VersionHistory.aml&#39;
+    C:\Users\Paski\source\repos\DataSet Help\Content\VersionHistory\VersionHistory.aml -&gt; C:\Users\Paski\source\repos\DataSet Help\Help\Working\ddueXml\896a55b1-c6d6-49d8-b0b6-47c82eac7213.xml
+    Parsing topic file &#39;C:\Users\Paski\source\repos\DataSet Help\Content\VersionHistory\v1.0.0.0.aml&#39;
+    C:\Users\Paski\source\repos\DataSet Help\Content\VersionHistory\v1.0.0.0.aml -&gt; C:\Users\Paski\source\repos\DataSet Help\Help\Working\ddueXml\e49cd672-be63-4818-ae05-6c4419c9d329.xml
+    Last step completed in 00:00:00,0469
+</buildStep>
+<buildStep step="CreateConceptualTopicConfigs">
+Creating conceptual topic configuration files...
+    Companion files
+    _ContentMetadata_.xml
+    Merging topic IDs into manifest.xml
+    Last step completed in 00:00:00,0844
+</buildStep>
+<buildStep step="CopyAdditionalContent">
+Copying additional content files...
+C:\Users\Paski\source\repos\DataSet Help\icons\Help.png -&gt; C:\Users\Paski\source\repos\DataSet Help\Help\Working\Output\MSHelpViewer\icons\Help.png
+C:\Users\Paski\source\repos\DataSet Help\icons\Help.png -&gt; C:\Users\Paski\source\repos\DataSet Help\Help\Working\Output\Website\icons\Help.png
+    Last step completed in 00:00:00,0120
+</buildStep>
+<buildStep step="MergeTablesOfContents">
+Merging conceptual and additional tables of contents...
+    Last step completed in 00:00:00,0050
+</buildStep>
+<buildStep step="GenerateIntermediateTableOfContents">
+Generating intermediate table of contents file for API content...
+Generating conceptual content intermediate TOC file...
+    Last step completed in 00:00:00,0692
+</buildStep>
+<buildStep step="CreateBuildAssemblerConfigs">
+Creating Sandcastle configuration files...
+    sandcastle.config
+    Last step completed in 00:00:00,2945
+</buildStep>
+<buildStep step="MergeCustomConfigs">
+Merging custom build component configurations
+C:\Users\Paski\source\repos\DataSet Help\Help\Working\sandcastle.config
+  Updating reference topic configurations.
+  Updating conceptual topic configurations.
+    Removing unused ExampleComponent.
+    Last step completed in 00:00:00,0359
+</buildStep>
+<buildStep step="BuildTopics">
+Building help topics...
+[C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\MSBuild.exe - BuildTopics.proj]
+Compilaci&#162;n iniciada a las 19/11/2021 20:02:23.
+Proyecto &quot;C:\Users\Paski\source\repos\DataSet Help\Help\Working\BuildTopics.proj&quot; en nodo 1 (destinos predeterminados).
+BuildTopics:
+  Microsoft.Build (v16.11.1+3e40a09f830fce5bb34916a4d20255c0876c9b5d)
+  &#184; Microsoft Corporation. All rights reserved.
+  Loading configuration...
+  ResolveReferenceLinksComponent: The member ID URL cache &#39;C:\Users\Paski\AppData\Local\EWSoftware\Sandcastle Help File Builder\Cache\MemberIdUrl.cache&#39; does not exist yet.  All IDs will be looked up in this build which will slow it down.
+  Processing topics...
+BuildAssembler : warning : ShowMissingComponent: [N:DatasetIndividual] Missing &lt;summary&gt; documentation [C:\Users\Paski\source\repos\DataSet Help\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:DatasetIndividual.AgenciesDataSet.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)] Missing &lt;param name=&quot;info&quot;/&gt; documentation [C:\Users\Paski\source\repos\DataSet Help\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:DatasetIndividual.AgenciesDataSet.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)] Missing &lt;param name=&quot;context&quot;/&gt; documentation [C:\Users\Paski\source\repos\DataSet Help\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:DatasetIndividual.AgenciesDataSet.Agencies] Missing &lt;summary&gt; documentation [C:\Users\Paski\source\repos\DataSet Help\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:DatasetIndividual.AgenciesDataSet.Clone] Missing &lt;summary&gt; documentation [C:\Users\Paski\source\repos\DataSet Help\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:DatasetIndividual.AgenciesDataSet.Clone] Missing &lt;returns&gt; documentation [C:\Users\Paski\source\repos\DataSet Help\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:DatasetIndividual.AgenciesDataSet.GetSchemaSerializable] Missing &lt;summary&gt; documentation [C:\Users\Paski\source\repos\DataSet Help\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:DatasetIndividual.AgenciesDataSet.GetSchemaSerializable] Missing &lt;returns&gt; documentation [C:\Users\Paski\source\repos\DataSet Help\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:DatasetIndividual.AgenciesDataSet.GetTypedDataSetSchema(System.Xml.Schema.XmlSchemaSet)] Missing &lt;summary&gt; documentation [C:\Users\Paski\source\repos\DataSet Help\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:DatasetIndividual.AgenciesDataSet.GetTypedDataSetSchema(System.Xml.Schema.XmlSchemaSet)] Missing &lt;returns&gt; documentation [C:\Users\Paski\source\repos\DataSet Help\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:DatasetIndividual.AgenciesDataSet.GetTypedDataSetSchema(System.Xml.Schema.XmlSchemaSet)] Missing &lt;param name=&quot;xs&quot;/&gt; documentation [C:\Users\Paski\source\repos\DataSet Help\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:DatasetIndividual.AgenciesDataSet.InitializeDerivedDataSet] Missing &lt;summary&gt; documentation [C:\Users\Paski\source\repos\DataSet Help\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:DatasetIndividual.AgenciesDataSet.ReadXmlSerializable(System.Xml.XmlReader)] Missing &lt;summary&gt; documentation [C:\Users\Paski\source\repos\DataSet Help\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:DatasetIndividual.AgenciesDataSet.ReadXmlSerializable(System.Xml.XmlReader)] Missing &lt;param name=&quot;reader&quot;/&gt; documentation [C:\Users\Paski\source\repos\DataSet Help\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:DatasetIndividual.AgenciesDataSet.Relations] Missing &lt;summary&gt; documentation [C:\Users\Paski\source\repos\DataSet Help\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:DatasetIndividual.AgenciesDataSet.SchemaSerializationMode] Missing &lt;summary&gt; documentation [C:\Users\Paski\source\repos\DataSet Help\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:DatasetIndividual.AgenciesDataSet.ShouldSerializeRelations] Missing &lt;summary&gt; documentation [C:\Users\Paski\source\repos\DataSet Help\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:DatasetIndividual.AgenciesDataSet.ShouldSerializeRelations] Missing &lt;returns&gt; documentation [C:\Users\Paski\source\repos\DataSet Help\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:DatasetIndividual.AgenciesDataSet.ShouldSerializeTables] Missing &lt;summary&gt; documentation [C:\Users\Paski\source\repos\DataSet Help\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:DatasetIndividual.AgenciesDataSet.ShouldSerializeTables] Missing &lt;returns&gt; documentation [C:\Users\Paski\source\repos\DataSet Help\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:DatasetIndividual.AgenciesDataSet.Tables] Missing &lt;summary&gt; documentation [C:\Users\Paski\source\repos\DataSet Help\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:DatasetIndividual.AgenciesDataSet.AgenciesDataTable.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)] Missing &lt;param name=&quot;info&quot;/&gt; documentation [C:\Users\Paski\source\repos\DataSet Help\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:DatasetIndividual.AgenciesDataSet.AgenciesDataTable.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)] Missing &lt;param name=&quot;context&quot;/&gt; documentation [C:\Users\Paski\source\repos\DataSet Help\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:DatasetIndividual.AgenciesDataSet.AgenciesDataTable.AddAgenciesRow(DatasetIndividual.AgenciesDataSet.AgenciesRow)] Missing &lt;summary&gt; documentation [C:\Users\Paski\source\repos\DataSet Help\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:DatasetIndividual.AgenciesDataSet.AgenciesDataTable.AddAgenciesRow(DatasetIndividual.AgenciesDataSet.AgenciesRow)] Missing &lt;param name=&quot;row&quot;/&gt; documentation [C:\Users\Paski\source\repos\DataSet Help\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:DatasetIndividual.AgenciesDataSet.AgenciesDataTable.AddAgenciesRow(System.String,System.String)] Missing &lt;summary&gt; documentation [C:\Users\Paski\source\repos\DataSet Help\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:DatasetIndividual.AgenciesDataSet.AgenciesDataTable.AddAgenciesRow(System.String,System.String)] Missing &lt;returns&gt; documentation [C:\Users\Paski\source\repos\DataSet Help\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:DatasetIndividual.AgenciesDataSet.AgenciesDataTable.AddAgenciesRow(System.String,System.String)] Missing &lt;param name=&quot;CodeAgency&quot;/&gt; documentation [C:\Users\Paski\source\repos\DataSet Help\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:DatasetIndividual.AgenciesDataSet.AgenciesDataTable.AddAgenciesRow(System.String,System.String)] Missing &lt;param name=&quot;DescAgency&quot;/&gt; documentation [C:\Users\Paski\source\repos\DataSet Help\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [E:DatasetIndividual.AgenciesDataSet.AgenciesDataTable.AgenciesRowChanged] Missing &lt;summary&gt; documentation [C:\Users\Paski\source\repos\DataSet Help\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [E:DatasetIndividual.AgenciesDataSet.AgenciesDataTable.AgenciesRowChanging] Missing &lt;summary&gt; documentation [C:\Users\Paski\source\repos\DataSet Help\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [E:DatasetIndividual.AgenciesDataSet.AgenciesDataTable.AgenciesRowDeleted] Missing &lt;summary&gt; documentation [C:\Users\Paski\source\repos\DataSet Help\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [E:DatasetIndividual.AgenciesDataSet.AgenciesDataTable.AgenciesRowDeleting] Missing &lt;summary&gt; documentation [C:\Users\Paski\source\repos\DataSet Help\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:DatasetIndividual.AgenciesDataSet.AgenciesDataTable.Clone] Missing &lt;summary&gt; documentation [C:\Users\Paski\source\repos\DataSet Help\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:DatasetIndividual.AgenciesDataSet.AgenciesDataTable.Clone] Missing &lt;returns&gt; documentation [C:\Users\Paski\source\repos\DataSet Help\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:DatasetIndividual.AgenciesDataSet.AgenciesDataTable.CodeAgencyColumn] Missing &lt;summary&gt; documentation [C:\Users\Paski\source\repos\DataSet Help\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:DatasetIndividual.AgenciesDataSet.AgenciesDataTable.Count] Missing &lt;summary&gt; documentation [C:\Users\Paski\source\repos\DataSet Help\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:DatasetIndividual.AgenciesDataSet.AgenciesDataTable.CreateInstance] Missing &lt;summary&gt; documentation [C:\Users\Paski\source\repos\DataSet Help\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:DatasetIndividual.AgenciesDataSet.AgenciesDataTable.CreateInstance] Missing &lt;returns&gt; documentation [C:\Users\Paski\source\repos\DataSet Help\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:DatasetIndividual.AgenciesDataSet.AgenciesDataTable.DescAgencyColumn] Missing &lt;summary&gt; documentation [C:\Users\Paski\source\repos\DataSet Help\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:DatasetIndividual.AgenciesDataSet.AgenciesDataTable.FindByidAgency(System.Int16)] Missing &lt;summary&gt; documentation [C:\Users\Paski\source\repos\DataSet Help\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:DatasetIndividual.AgenciesDataSet.AgenciesDataTable.FindByidAgency(System.Int16)] Missing &lt;returns&gt; documentation [C:\Users\Paski\source\repos\DataSet Help\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:DatasetIndividual.AgenciesDataSet.AgenciesDataTable.FindByidAgency(System.Int16)] Missing &lt;param name=&quot;idAgency&quot;/&gt; documentation [C:\Users\Paski\source\repos\DataSet Help\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:DatasetIndividual.AgenciesDataSet.AgenciesDataTable.GetRowType] Missing &lt;summary&gt; documentation [C:\Users\Paski\source\repos\DataSet Help\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:DatasetIndividual.AgenciesDataSet.AgenciesDataTable.GetRowType] Missing &lt;returns&gt; documentation [C:\Users\Paski\source\repos\DataSet Help\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:DatasetIndividual.AgenciesDataSet.AgenciesDataTable.GetTypedTableSchema(System.Xml.Schema.XmlSchemaSet)] Missing &lt;summary&gt; documentation [C:\Users\Paski\source\repos\DataSet Help\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:DatasetIndividual.AgenciesDataSet.AgenciesDataTable.GetTypedTableSchema(System.Xml.Schema.XmlSchemaSet)] Missing &lt;returns&gt; documentation [C:\Users\Paski\source\repos\DataSet Help\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:DatasetIndividual.AgenciesDataSet.AgenciesDataTable.GetTypedTableSchema(System.Xml.Schema.XmlSchemaSet)] Missing &lt;param name=&quot;xs&quot;/&gt; documentation [C:\Users\Paski\source\repos\DataSet Help\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:DatasetIndividual.AgenciesDataSet.AgenciesDataTable.idAgencyColumn] Missing &lt;summary&gt; documentation [C:\Users\Paski\source\repos\DataSet Help\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:DatasetIndividual.AgenciesDataSet.AgenciesDataTable.Item(System.Int32)] Missing &lt;summary&gt; documentation [C:\Users\Paski\source\repos\DataSet Help\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:DatasetIndividual.AgenciesDataSet.AgenciesDataTable.NewAgenciesRow] Missing &lt;summary&gt; documentation [C:\Users\Paski\source\repos\DataSet Help\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:DatasetIndividual.AgenciesDataSet.AgenciesDataTable.NewAgenciesRow] Missing &lt;returns&gt; documentation [C:\Users\Paski\source\repos\DataSet Help\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:DatasetIndividual.AgenciesDataSet.AgenciesDataTable.NewRowFromBuilder(System.Data.DataRowBuilder)] Missing &lt;summary&gt; documentation [C:\Users\Paski\source\repos\DataSet Help\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:DatasetIndividual.AgenciesDataSet.AgenciesDataTable.NewRowFromBuilder(System.Data.DataRowBuilder)] Missing &lt;returns&gt; documentation [C:\Users\Paski\source\repos\DataSet Help\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:DatasetIndividual.AgenciesDataSet.AgenciesDataTable.NewRowFromBuilder(System.Data.DataRowBuilder)] Missing &lt;param name=&quot;builder&quot;/&gt; documentation [C:\Users\Paski\source\repos\DataSet Help\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:DatasetIndividual.AgenciesDataSet.AgenciesDataTable.OnRowChanged(System.Data.DataRowChangeEventArgs)] Missing &lt;summary&gt; documentation [C:\Users\Paski\source\repos\DataSet Help\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:DatasetIndividual.AgenciesDataSet.AgenciesDataTable.OnRowChanged(System.Data.DataRowChangeEventArgs)] Missing &lt;param name=&quot;e&quot;/&gt; documentation [C:\Users\Paski\source\repos\DataSet Help\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:DatasetIndividual.AgenciesDataSet.AgenciesDataTable.OnRowChanging(System.Data.DataRowChangeEventArgs)] Missing &lt;summary&gt; documentation [C:\Users\Paski\source\repos\DataSet Help\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:DatasetIndividual.AgenciesDataSet.AgenciesDataTable.OnRowChanging(System.Data.DataRowChangeEventArgs)] Missing &lt;param name=&quot;e&quot;/&gt; documentation [C:\Users\Paski\source\repos\DataSet Help\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:DatasetIndividual.AgenciesDataSet.AgenciesDataTable.OnRowDeleted(System.Data.DataRowChangeEventArgs)] Missing &lt;summary&gt; documentation [C:\Users\Paski\source\repos\DataSet Help\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:DatasetIndividual.AgenciesDataSet.AgenciesDataTable.OnRowDeleted(System.Data.DataRowChangeEventArgs)] Missing &lt;param name=&quot;e&quot;/&gt; documentation [C:\Users\Paski\source\repos\DataSet Help\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:DatasetIndividual.AgenciesDataSet.AgenciesDataTable.OnRowDeleting(System.Data.DataRowChangeEventArgs)] Missing &lt;summary&gt; documentation [C:\Users\Paski\source\repos\DataSet Help\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:DatasetIndividual.AgenciesDataSet.AgenciesDataTable.OnRowDeleting(System.Data.DataRowChangeEventArgs)] Missing &lt;param name=&quot;e&quot;/&gt; documentation [C:\Users\Paski\source\repos\DataSet Help\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:DatasetIndividual.AgenciesDataSet.AgenciesDataTable.RemoveAgenciesRow(DatasetIndividual.AgenciesDataSet.AgenciesRow)] Missing &lt;summary&gt; documentation [C:\Users\Paski\source\repos\DataSet Help\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:DatasetIndividual.AgenciesDataSet.AgenciesDataTable.RemoveAgenciesRow(DatasetIndividual.AgenciesDataSet.AgenciesRow)] Missing &lt;param name=&quot;row&quot;/&gt; documentation [C:\Users\Paski\source\repos\DataSet Help\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:DatasetIndividual.AgenciesDataSet.AgenciesRow] Member ID URL not found for target &#39;P:System.Data.DataRow.Rowstate&#39;. [C:\Users\Paski\source\repos\DataSet Help\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:DatasetIndividual.AgenciesDataSet.AgenciesRow] Member ID URL not found for target &#39;P:System.Data.DataRow.Rowstate&#39;. [C:\Users\Paski\source\repos\DataSet Help\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:DatasetIndividual.AgenciesDataSet.AgenciesRow] Member ID URL not found for target &#39;P:System.Data.DataRow.Rowstate&#39;. [C:\Users\Paski\source\repos\DataSet Help\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:DatasetIndividual.AgenciesDataSet.AgenciesRow] Member ID URL not found for target &#39;P:System.Data.DataRow.Rowstate&#39;. [C:\Users\Paski\source\repos\DataSet Help\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:DatasetIndividual.AgenciesDataSet.AgenciesRow] Member ID URL not found for target &#39;P:System.Data.DataRow.Rowstate&#39;. [C:\Users\Paski\source\repos\DataSet Help\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:DatasetIndividual.AgenciesDataSet.AgenciesRow] Member ID URL not found for target &#39;P:System.Data.DataRow.Rowstate&#39;. [C:\Users\Paski\source\repos\DataSet Help\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:DatasetIndividual.AgenciesDataSet.AgenciesRow] Member ID URL not found for target &#39;P:System.Data.DataRow.Rowstate&#39;. [C:\Users\Paski\source\repos\DataSet Help\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:DatasetIndividual.AgenciesDataSet.AgenciesRow] Member ID URL not found for target &#39;P:System.Data.DataRow.Rowstate&#39;. [C:\Users\Paski\source\repos\DataSet Help\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:DatasetIndividual.AgenciesDataSet.AgenciesRow.CodeAgency] Missing &lt;summary&gt; documentation [C:\Users\Paski\source\repos\DataSet Help\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:DatasetIndividual.AgenciesDataSet.AgenciesRow.DescAgency] Missing &lt;summary&gt; documentation [C:\Users\Paski\source\repos\DataSet Help\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:DatasetIndividual.AgenciesDataSet.AgenciesRow.idAgency] Missing &lt;summary&gt; documentation [C:\Users\Paski\source\repos\DataSet Help\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:DatasetIndividual.AgenciesDataSet.AgenciesRow.IsCodeAgencyNull] Missing &lt;summary&gt; documentation [C:\Users\Paski\source\repos\DataSet Help\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:DatasetIndividual.AgenciesDataSet.AgenciesRow.IsCodeAgencyNull] Missing &lt;returns&gt; documentation [C:\Users\Paski\source\repos\DataSet Help\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:DatasetIndividual.AgenciesDataSet.AgenciesRow.IsDescAgencyNull] Missing &lt;summary&gt; documentation [C:\Users\Paski\source\repos\DataSet Help\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:DatasetIndividual.AgenciesDataSet.AgenciesRow.IsDescAgencyNull] Missing &lt;returns&gt; documentation [C:\Users\Paski\source\repos\DataSet Help\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:DatasetIndividual.AgenciesDataSet.AgenciesRow.SetCodeAgencyNull] Missing &lt;summary&gt; documentation [C:\Users\Paski\source\repos\DataSet Help\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:DatasetIndividual.AgenciesDataSet.AgenciesRow.SetDescAgencyNull] Missing &lt;summary&gt; documentation [C:\Users\Paski\source\repos\DataSet Help\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:DatasetIndividual.AgenciesDataSet.AgenciesRowChangeEvent.#ctor(DatasetIndividual.AgenciesDataSet.AgenciesRow,System.Data.DataRowAction)] Missing &lt;param name=&quot;row&quot;/&gt; documentation [C:\Users\Paski\source\repos\DataSet Help\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:DatasetIndividual.AgenciesDataSet.AgenciesRowChangeEvent.#ctor(DatasetIndividual.AgenciesDataSet.AgenciesRow,System.Data.DataRowAction)] Missing &lt;param name=&quot;action&quot;/&gt; documentation [C:\Users\Paski\source\repos\DataSet Help\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:DatasetIndividual.AgenciesDataSet.AgenciesRowChangeEvent.Action] Missing &lt;summary&gt; documentation [C:\Users\Paski\source\repos\DataSet Help\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:DatasetIndividual.AgenciesDataSet.AgenciesRowChangeEvent.Row] Missing &lt;summary&gt; documentation [C:\Users\Paski\source\repos\DataSet Help\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [T:DatasetIndividual.AgenciesDataSet.AgenciesRowChangeEventHandler] Missing &lt;summary&gt; documentation [C:\Users\Paski\source\repos\DataSet Help\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [T:DatasetIndividual.Frm_Cerca] Missing &lt;summary&gt; documentation [C:\Users\Paski\source\repos\DataSet Help\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [N:DatasetIndividual.AgenciesDataSetTableAdapters] Missing &lt;summary&gt; documentation [C:\Users\Paski\source\repos\DataSet Help\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:DatasetIndividual.AgenciesDataSetTableAdapters.AgenciesTableAdapter.Adapter] Missing &lt;summary&gt; documentation [C:\Users\Paski\source\repos\DataSet Help\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:DatasetIndividual.AgenciesDataSetTableAdapters.AgenciesTableAdapter.ClearBeforeFill] Missing &lt;summary&gt; documentation [C:\Users\Paski\source\repos\DataSet Help\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:DatasetIndividual.AgenciesDataSetTableAdapters.AgenciesTableAdapter.CommandCollection] Missing &lt;summary&gt; documentation [C:\Users\Paski\source\repos\DataSet Help\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:DatasetIndividual.AgenciesDataSetTableAdapters.AgenciesTableAdapter.Delete(System.Int16,System.String,System.String)] Missing &lt;summary&gt; documentation [C:\Users\Paski\source\repos\DataSet Help\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:DatasetIndividual.AgenciesDataSetTableAdapters.AgenciesTableAdapter.Delete(System.Int16,System.String,System.String)] Missing &lt;returns&gt; documentation [C:\Users\Paski\source\repos\DataSet Help\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:DatasetIndividual.AgenciesDataSetTableAdapters.AgenciesTableAdapter.Delete(System.Int16,System.String,System.String)] Missing &lt;param name=&quot;Original_idAgency&quot;/&gt; documentation [C:\Users\Paski\source\repos\DataSet Help\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:DatasetIndividual.AgenciesDataSetTableAdapters.AgenciesTableAdapter.Delete(System.Int16,System.String,System.String)] Missing &lt;param name=&quot;Original_CodeAgency&quot;/&gt; documentation [C:\Users\Paski\source\repos\DataSet Help\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:DatasetIndividual.AgenciesDataSetTableAdapters.AgenciesTableAdapter.Delete(System.Int16,System.String,System.String)] Missing &lt;param name=&quot;Original_DescAgency&quot;/&gt; documentation [C:\Users\Paski\source\repos\DataSet Help\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:DatasetIndividual.AgenciesDataSetTableAdapters.AgenciesTableAdapter.Fill(DatasetIndividual.AgenciesDataSet.AgenciesDataTable)] Missing &lt;summary&gt; documentation [C:\Users\Paski\source\repos\DataSet Help\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:DatasetIndividual.AgenciesDataSetTableAdapters.AgenciesTableAdapter.Fill(DatasetIndividual.AgenciesDataSet.AgenciesDataTable)] Missing &lt;returns&gt; documentation [C:\Users\Paski\source\repos\DataSet Help\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:DatasetIndividual.AgenciesDataSetTableAdapters.AgenciesTableAdapter.Fill(DatasetIndividual.AgenciesDataSet.AgenciesDataTable)] Missing &lt;param name=&quot;dataTable&quot;/&gt; documentation [C:\Users\Paski\source\repos\DataSet Help\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:DatasetIndividual.AgenciesDataSetTableAdapters.AgenciesTableAdapter.GetData] Missing &lt;summary&gt; documentation [C:\Users\Paski\source\repos\DataSet Help\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:DatasetIndividual.AgenciesDataSetTableAdapters.AgenciesTableAdapter.GetData] Missing &lt;returns&gt; documentation [C:\Users\Paski\source\repos\DataSet Help\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:DatasetIndividual.AgenciesDataSetTableAdapters.AgenciesTableAdapter.Insert(System.String,System.String)] Missing &lt;summary&gt; documentation [C:\Users\Paski\source\repos\DataSet Help\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:DatasetIndividual.AgenciesDataSetTableAdapters.AgenciesTableAdapter.Insert(System.String,System.String)] Missing &lt;returns&gt; documentation [C:\Users\Paski\source\repos\DataSet Help\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:DatasetIndividual.AgenciesDataSetTableAdapters.AgenciesTableAdapter.Insert(System.String,System.String)] Missing &lt;param name=&quot;CodeAgency&quot;/&gt; documentation [C:\Users\Paski\source\repos\DataSet Help\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:DatasetIndividual.AgenciesDataSetTableAdapters.AgenciesTableAdapter.Insert(System.String,System.String)] Missing &lt;param name=&quot;DescAgency&quot;/&gt; documentation [C:\Users\Paski\source\repos\DataSet Help\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:DatasetIndividual.AgenciesDataSetTableAdapters.AgenciesTableAdapter.Update(DatasetIndividual.AgenciesDataSet)] Missing &lt;summary&gt; documentation [C:\Users\Paski\source\repos\DataSet Help\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:DatasetIndividual.AgenciesDataSetTableAdapters.AgenciesTableAdapter.Update(DatasetIndividual.AgenciesDataSet)] Missing &lt;returns&gt; documentation [C:\Users\Paski\source\repos\DataSet Help\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:DatasetIndividual.AgenciesDataSetTableAdapters.AgenciesTableAdapter.Update(DatasetIndividual.AgenciesDataSet)] Missing &lt;param name=&quot;dataSet&quot;/&gt; documentation [C:\Users\Paski\source\repos\DataSet Help\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:DatasetIndividual.AgenciesDataSetTableAdapters.AgenciesTableAdapter.Update(DatasetIndividual.AgenciesDataSet.AgenciesDataTable)] Missing &lt;summary&gt; documentation [C:\Users\Paski\source\repos\DataSet Help\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:DatasetIndividual.AgenciesDataSetTableAdapters.AgenciesTableAdapter.Update(DatasetIndividual.AgenciesDataSet.AgenciesDataTable)] Missing &lt;returns&gt; documentation [C:\Users\Paski\source\repos\DataSet Help\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:DatasetIndividual.AgenciesDataSetTableAdapters.AgenciesTableAdapter.Update(DatasetIndividual.AgenciesDataSet.AgenciesDataTable)] Missing &lt;param name=&quot;dataTable&quot;/&gt; documentation [C:\Users\Paski\source\repos\DataSet Help\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:DatasetIndividual.AgenciesDataSetTableAdapters.AgenciesTableAdapter.Update(System.Data.DataRow)] Missing &lt;summary&gt; documentation [C:\Users\Paski\source\repos\DataSet Help\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:DatasetIndividual.AgenciesDataSetTableAdapters.AgenciesTableAdapter.Update(System.Data.DataRow)] Missing &lt;returns&gt; documentation [C:\Users\Paski\source\repos\DataSet Help\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:DatasetIndividual.AgenciesDataSetTableAdapters.AgenciesTableAdapter.Update(System.Data.DataRow)] Missing &lt;param name=&quot;dataRow&quot;/&gt; documentation [C:\Users\Paski\source\repos\DataSet Help\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:DatasetIndividual.AgenciesDataSetTableAdapters.AgenciesTableAdapter.Update(System.Data.DataRow[])] Missing &lt;summary&gt; documentation [C:\Users\Paski\source\repos\DataSet Help\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:DatasetIndividual.AgenciesDataSetTableAdapters.AgenciesTableAdapter.Update(System.Data.DataRow[])] Missing &lt;returns&gt; documentation [C:\Users\Paski\source\repos\DataSet Help\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:DatasetIndividual.AgenciesDataSetTableAdapters.AgenciesTableAdapter.Update(System.Data.DataRow[])] Missing &lt;param name=&quot;dataRows&quot;/&gt; documentation [C:\Users\Paski\source\repos\DataSet Help\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:DatasetIndividual.AgenciesDataSetTableAdapters.AgenciesTableAdapter.Update(System.String,System.String,System.Int16,System.String,System.String)] Missing &lt;summary&gt; documentation [C:\Users\Paski\source\repos\DataSet Help\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:DatasetIndividual.AgenciesDataSetTableAdapters.AgenciesTableAdapter.Update(System.String,System.String,System.Int16,System.String,System.String)] Missing &lt;returns&gt; documentation [C:\Users\Paski\source\repos\DataSet Help\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:DatasetIndividual.AgenciesDataSetTableAdapters.AgenciesTableAdapter.Update(System.String,System.String,System.Int16,System.String,System.String)] Missing &lt;param name=&quot;CodeAgency&quot;/&gt; documentation [C:\Users\Paski\source\repos\DataSet Help\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:DatasetIndividual.AgenciesDataSetTableAdapters.AgenciesTableAdapter.Update(System.String,System.String,System.Int16,System.String,System.String)] Missing &lt;param name=&quot;DescAgency&quot;/&gt; documentation [C:\Users\Paski\source\repos\DataSet Help\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:DatasetIndividual.AgenciesDataSetTableAdapters.AgenciesTableAdapter.Update(System.String,System.String,System.Int16,System.String,System.String)] Missing &lt;param name=&quot;Original_idAgency&quot;/&gt; documentation [C:\Users\Paski\source\repos\DataSet Help\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:DatasetIndividual.AgenciesDataSetTableAdapters.AgenciesTableAdapter.Update(System.String,System.String,System.Int16,System.String,System.String)] Missing &lt;param name=&quot;Original_CodeAgency&quot;/&gt; documentation [C:\Users\Paski\source\repos\DataSet Help\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:DatasetIndividual.AgenciesDataSetTableAdapters.AgenciesTableAdapter.Update(System.String,System.String,System.Int16,System.String,System.String)] Missing &lt;param name=&quot;Original_DescAgency&quot;/&gt; documentation [C:\Users\Paski\source\repos\DataSet Help\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:DatasetIndividual.AgenciesDataSetTableAdapters.AgenciesTableAdapter.Update(System.String,System.String,System.Int16,System.String,System.String,System.Int16)] Missing &lt;summary&gt; documentation [C:\Users\Paski\source\repos\DataSet Help\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:DatasetIndividual.AgenciesDataSetTableAdapters.AgenciesTableAdapter.Update(System.String,System.String,System.Int16,System.String,System.String,System.Int16)] Missing &lt;returns&gt; documentation [C:\Users\Paski\source\repos\DataSet Help\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:DatasetIndividual.AgenciesDataSetTableAdapters.AgenciesTableAdapter.Update(System.String,System.String,System.Int16,System.String,System.String,System.Int16)] Missing &lt;param name=&quot;CodeAgency&quot;/&gt; documentation [C:\Users\Paski\source\repos\DataSet Help\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:DatasetIndividual.AgenciesDataSetTableAdapters.AgenciesTableAdapter.Update(System.String,System.String,System.Int16,System.String,System.String,System.Int16)] Missing &lt;param name=&quot;DescAgency&quot;/&gt; documentation [C:\Users\Paski\source\repos\DataSet Help\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:DatasetIndividual.AgenciesDataSetTableAdapters.AgenciesTableAdapter.Update(System.String,System.String,System.Int16,System.String,System.String,System.Int16)] Missing &lt;param name=&quot;Original_idAgency&quot;/&gt; documentation [C:\Users\Paski\source\repos\DataSet Help\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:DatasetIndividual.AgenciesDataSetTableAdapters.AgenciesTableAdapter.Update(System.String,System.String,System.Int16,System.String,System.String,System.Int16)] Missing &lt;param name=&quot;Original_CodeAgency&quot;/&gt; documentation [C:\Users\Paski\source\repos\DataSet Help\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:DatasetIndividual.AgenciesDataSetTableAdapters.AgenciesTableAdapter.Update(System.String,System.String,System.Int16,System.String,System.String,System.Int16)] Missing &lt;param name=&quot;Original_DescAgency&quot;/&gt; documentation [C:\Users\Paski\source\repos\DataSet Help\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:DatasetIndividual.AgenciesDataSetTableAdapters.AgenciesTableAdapter.Update(System.String,System.String,System.Int16,System.String,System.String,System.Int16)] Missing &lt;param name=&quot;idAgency&quot;/&gt; documentation [C:\Users\Paski\source\repos\DataSet Help\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:DatasetIndividual.AgenciesDataSetTableAdapters.TableAdapterManager.AgenciesTableAdapter] Missing &lt;summary&gt; documentation [C:\Users\Paski\source\repos\DataSet Help\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:DatasetIndividual.AgenciesDataSetTableAdapters.TableAdapterManager.BackupDataSetBeforeUpdate] Missing &lt;summary&gt; documentation [C:\Users\Paski\source\repos\DataSet Help\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:DatasetIndividual.AgenciesDataSetTableAdapters.TableAdapterManager.Connection] Missing &lt;summary&gt; documentation [C:\Users\Paski\source\repos\DataSet Help\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:DatasetIndividual.AgenciesDataSetTableAdapters.TableAdapterManager.MatchTableAdapterConnection(System.Data.IDbConnection)] Missing &lt;summary&gt; documentation [C:\Users\Paski\source\repos\DataSet Help\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:DatasetIndividual.AgenciesDataSetTableAdapters.TableAdapterManager.MatchTableAdapterConnection(System.Data.IDbConnection)] Missing &lt;returns&gt; documentation [C:\Users\Paski\source\repos\DataSet Help\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:DatasetIndividual.AgenciesDataSetTableAdapters.TableAdapterManager.MatchTableAdapterConnection(System.Data.IDbConnection)] Missing &lt;param name=&quot;inputConnection&quot;/&gt; documentation [C:\Users\Paski\source\repos\DataSet Help\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:DatasetIndividual.AgenciesDataSetTableAdapters.TableAdapterManager.SortSelfReferenceRows(System.Data.DataRow[],System.Data.DataRelation,System.Boolean)] Missing &lt;summary&gt; documentation [C:\Users\Paski\source\repos\DataSet Help\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:DatasetIndividual.AgenciesDataSetTableAdapters.TableAdapterManager.SortSelfReferenceRows(System.Data.DataRow[],System.Data.DataRelation,System.Boolean)] Missing &lt;param name=&quot;rows&quot;/&gt; documentation [C:\Users\Paski\source\repos\DataSet Help\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:DatasetIndividual.AgenciesDataSetTableAdapters.TableAdapterManager.SortSelfReferenceRows(System.Data.DataRow[],System.Data.DataRelation,System.Boolean)] Missing &lt;param name=&quot;relation&quot;/&gt; documentation [C:\Users\Paski\source\repos\DataSet Help\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:DatasetIndividual.AgenciesDataSetTableAdapters.TableAdapterManager.SortSelfReferenceRows(System.Data.DataRow[],System.Data.DataRelation,System.Boolean)] Missing &lt;param name=&quot;childFirst&quot;/&gt; documentation [C:\Users\Paski\source\repos\DataSet Help\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:DatasetIndividual.AgenciesDataSetTableAdapters.TableAdapterManager.TableAdapterInstanceCount] Missing &lt;summary&gt; documentation [C:\Users\Paski\source\repos\DataSet Help\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:DatasetIndividual.AgenciesDataSetTableAdapters.TableAdapterManager.UpdateAll(DatasetIndividual.AgenciesDataSet)] Missing &lt;returns&gt; documentation [C:\Users\Paski\source\repos\DataSet Help\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:DatasetIndividual.AgenciesDataSetTableAdapters.TableAdapterManager.UpdateAll(DatasetIndividual.AgenciesDataSet)] Missing &lt;param name=&quot;dataSet&quot;/&gt; documentation [C:\Users\Paski\source\repos\DataSet Help\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:DatasetIndividual.AgenciesDataSetTableAdapters.TableAdapterManager.UpdateOrder] Missing &lt;summary&gt; documentation [C:\Users\Paski\source\repos\DataSet Help\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [N:InheritedControls] Missing &lt;summary&gt; documentation [C:\Users\Paski\source\repos\DataSet Help\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [T:InheritedControls.SWTextBox] Missing &lt;summary&gt; documentation [C:\Users\Paski\source\repos\DataSet Help\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:InheritedControls.SWTextBox.CampBuit] Missing &lt;summary&gt; documentation [C:\Users\Paski\source\repos\DataSet Help\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:InheritedControls.SWTextBox.ClauForana] Missing &lt;summary&gt; documentation [C:\Users\Paski\source\repos\DataSet Help\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:InheritedControls.SWTextBox.NomControl] Missing &lt;summary&gt; documentation [C:\Users\Paski\source\repos\DataSet Help\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:InheritedControls.SWTextBox.Tipus] Missing &lt;summary&gt; documentation [C:\Users\Paski\source\repos\DataSet Help\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [T:InheritedControls.SWTextBox.TipusTextBox] Missing &lt;summary&gt; documentation [C:\Users\Paski\source\repos\DataSet Help\Help\Working\BuildTopics.proj]
+  Processed 123 topic(s)
+  154 warning(s)
+  CopyFromIndexComponent: &quot;metadata&quot; in-memory cache entries used: 1 of 15.
+  ResolveArtLinksComponent: Copying media files...
+  ResolveReferenceLinksComponent: 950 entries added to the member ID URL cache.  New cache size: 950 entries
+  ResolveArtLinksComponent: Copying media files...
+  CopyFromIndexComponent: &quot;reflection&quot; in-memory cache entries used: 7 of 15.
+  CopyFromIndexComponent: &quot;comments&quot; in-memory cache entries used: 6 of 30.
+Compilaci&#162;n del proyecto terminada &quot;C:\Users\Paski\source\repos\DataSet Help\Help\Working\BuildTopics.proj&quot; (destinos predeterminados).
+    Last step completed in 00:03:29,7969
+</buildStep>
+<buildStep step="CombiningIntermediateTocFiles">
+Combining conceptual and API intermediate TOC files...
+    Last step completed in 00:00:00,0010
+</buildStep>
+<buildStep step="ExtractingHtmlInfo">
+Extracting HTML info for HTML Help 1 and/or website...
+[C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\MSBuild.exe - ExtractHtmlInfo.proj]
+    Last step completed in 00:00:00,3841
+</buildStep>
+<buildStep step="CopyStandardHelpContent">
+Copying standard help content...
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\icons\AlertCaution.png -&gt; C:\Users\Paski\source\repos\DataSet Help\Help\Working\Output\MSHelpViewer\icons\AlertCaution.png
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\icons\AlertNote.png -&gt; C:\Users\Paski\source\repos\DataSet Help\Help\Working\Output\MSHelpViewer\icons\AlertNote.png
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\icons\AlertSecurity.png -&gt; C:\Users\Paski\source\repos\DataSet Help\Help\Working\Output\MSHelpViewer\icons\AlertSecurity.png
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\icons\CFW.gif -&gt; C:\Users\Paski\source\repos\DataSet Help\Help\Working\Output\MSHelpViewer\icons\CFW.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\icons\CodeExample.png -&gt; C:\Users\Paski\source\repos\DataSet Help\Help\Working\Output\MSHelpViewer\icons\CodeExample.png
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\icons\favicon.ico -&gt; C:\Users\Paski\source\repos\DataSet Help\Help\Working\Output\MSHelpViewer\icons\favicon.ico
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\icons\privclass.gif -&gt; C:\Users\Paski\source\repos\DataSet Help\Help\Working\Output\MSHelpViewer\icons\privclass.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\icons\privdelegate.gif -&gt; C:\Users\Paski\source\repos\DataSet Help\Help\Working\Output\MSHelpViewer\icons\privdelegate.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\icons\privenumeration.gif -&gt; C:\Users\Paski\source\repos\DataSet Help\Help\Working\Output\MSHelpViewer\icons\privenumeration.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\icons\privevent.gif -&gt; C:\Users\Paski\source\repos\DataSet Help\Help\Working\Output\MSHelpViewer\icons\privevent.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\icons\privextension.gif -&gt; C:\Users\Paski\source\repos\DataSet Help\Help\Working\Output\MSHelpViewer\icons\privextension.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\icons\privfield.gif -&gt; C:\Users\Paski\source\repos\DataSet Help\Help\Working\Output\MSHelpViewer\icons\privfield.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\icons\privinterface.gif -&gt; C:\Users\Paski\source\repos\DataSet Help\Help\Working\Output\MSHelpViewer\icons\privinterface.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\icons\privmethod.gif -&gt; C:\Users\Paski\source\repos\DataSet Help\Help\Working\Output\MSHelpViewer\icons\privmethod.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\icons\privproperty.gif -&gt; C:\Users\Paski\source\repos\DataSet Help\Help\Working\Output\MSHelpViewer\icons\privproperty.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\icons\privstructure.gif -&gt; C:\Users\Paski\source\repos\DataSet Help\Help\Working\Output\MSHelpViewer\icons\privstructure.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\icons\protclass.gif -&gt; C:\Users\Paski\source\repos\DataSet Help\Help\Working\Output\MSHelpViewer\icons\protclass.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\icons\protdelegate.gif -&gt; C:\Users\Paski\source\repos\DataSet Help\Help\Working\Output\MSHelpViewer\icons\protdelegate.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\icons\protenumeration.gif -&gt; C:\Users\Paski\source\repos\DataSet Help\Help\Working\Output\MSHelpViewer\icons\protenumeration.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\icons\protevent.gif -&gt; C:\Users\Paski\source\repos\DataSet Help\Help\Working\Output\MSHelpViewer\icons\protevent.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\icons\protextension.gif -&gt; C:\Users\Paski\source\repos\DataSet Help\Help\Working\Output\MSHelpViewer\icons\protextension.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\icons\protfield.gif -&gt; C:\Users\Paski\source\repos\DataSet Help\Help\Working\Output\MSHelpViewer\icons\protfield.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\icons\protinterface.gif -&gt; C:\Users\Paski\source\repos\DataSet Help\Help\Working\Output\MSHelpViewer\icons\protinterface.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\icons\protmethod.gif -&gt; C:\Users\Paski\source\repos\DataSet Help\Help\Working\Output\MSHelpViewer\icons\protmethod.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\icons\protoperator.gif -&gt; C:\Users\Paski\source\repos\DataSet Help\Help\Working\Output\MSHelpViewer\icons\protoperator.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\icons\protproperty.gif -&gt; C:\Users\Paski\source\repos\DataSet Help\Help\Working\Output\MSHelpViewer\icons\protproperty.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\icons\protstructure.gif -&gt; C:\Users\Paski\source\repos\DataSet Help\Help\Working\Output\MSHelpViewer\icons\protstructure.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\icons\pubclass.gif -&gt; C:\Users\Paski\source\repos\DataSet Help\Help\Working\Output\MSHelpViewer\icons\pubclass.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\icons\pubdelegate.gif -&gt; C:\Users\Paski\source\repos\DataSet Help\Help\Working\Output\MSHelpViewer\icons\pubdelegate.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\icons\pubenumeration.gif -&gt; C:\Users\Paski\source\repos\DataSet Help\Help\Working\Output\MSHelpViewer\icons\pubenumeration.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\icons\pubevent.gif -&gt; C:\Users\Paski\source\repos\DataSet Help\Help\Working\Output\MSHelpViewer\icons\pubevent.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\icons\pubextension.gif -&gt; C:\Users\Paski\source\repos\DataSet Help\Help\Working\Output\MSHelpViewer\icons\pubextension.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\icons\pubfield.gif -&gt; C:\Users\Paski\source\repos\DataSet Help\Help\Working\Output\MSHelpViewer\icons\pubfield.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\icons\pubinterface.gif -&gt; C:\Users\Paski\source\repos\DataSet Help\Help\Working\Output\MSHelpViewer\icons\pubinterface.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\icons\pubmethod.gif -&gt; C:\Users\Paski\source\repos\DataSet Help\Help\Working\Output\MSHelpViewer\icons\pubmethod.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\icons\puboperator.gif -&gt; C:\Users\Paski\source\repos\DataSet Help\Help\Working\Output\MSHelpViewer\icons\puboperator.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\icons\pubproperty.gif -&gt; C:\Users\Paski\source\repos\DataSet Help\Help\Working\Output\MSHelpViewer\icons\pubproperty.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\icons\pubstructure.gif -&gt; C:\Users\Paski\source\repos\DataSet Help\Help\Working\Output\MSHelpViewer\icons\pubstructure.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\icons\SectionCollapsed.png -&gt; C:\Users\Paski\source\repos\DataSet Help\Help\Working\Output\MSHelpViewer\icons\SectionCollapsed.png
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\icons\SectionExpanded.png -&gt; C:\Users\Paski\source\repos\DataSet Help\Help\Working\Output\MSHelpViewer\icons\SectionExpanded.png
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\icons\slMobile.gif -&gt; C:\Users\Paski\source\repos\DataSet Help\Help\Working\Output\MSHelpViewer\icons\slMobile.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\icons\static.gif -&gt; C:\Users\Paski\source\repos\DataSet Help\Help\Working\Output\MSHelpViewer\icons\static.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\icons\xna.gif -&gt; C:\Users\Paski\source\repos\DataSet Help\Help\Working\Output\MSHelpViewer\icons\xna.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\scripts\branding.js -&gt; C:\Users\Paski\source\repos\DataSet Help\Help\Working\Output\MSHelpViewer\scripts\branding.js
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\styles\branding-cs-CZ.css -&gt; C:\Users\Paski\source\repos\DataSet Help\Help\Working\Output\MSHelpViewer\styles\branding-cs-CZ.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\styles\branding-de-DE.css -&gt; C:\Users\Paski\source\repos\DataSet Help\Help\Working\Output\MSHelpViewer\styles\branding-de-DE.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\styles\branding-en-US.css -&gt; C:\Users\Paski\source\repos\DataSet Help\Help\Working\Output\MSHelpViewer\styles\branding-en-US.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\styles\branding-es-ES.css -&gt; C:\Users\Paski\source\repos\DataSet Help\Help\Working\Output\MSHelpViewer\styles\branding-es-ES.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\styles\branding-fr-FR.css -&gt; C:\Users\Paski\source\repos\DataSet Help\Help\Working\Output\MSHelpViewer\styles\branding-fr-FR.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\styles\branding-Help1.css -&gt; C:\Users\Paski\source\repos\DataSet Help\Help\Working\Output\MSHelpViewer\styles\branding-Help1.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\styles\branding-HelpViewer.css -&gt; C:\Users\Paski\source\repos\DataSet Help\Help\Working\Output\MSHelpViewer\styles\branding-HelpViewer.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\styles\branding-it-IT.css -&gt; C:\Users\Paski\source\repos\DataSet Help\Help\Working\Output\MSHelpViewer\styles\branding-it-IT.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\styles\branding-ja-JP.css -&gt; C:\Users\Paski\source\repos\DataSet Help\Help\Working\Output\MSHelpViewer\styles\branding-ja-JP.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\styles\branding-ko-KR.css -&gt; C:\Users\Paski\source\repos\DataSet Help\Help\Working\Output\MSHelpViewer\styles\branding-ko-KR.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\styles\branding-pl-PL.css -&gt; C:\Users\Paski\source\repos\DataSet Help\Help\Working\Output\MSHelpViewer\styles\branding-pl-PL.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\styles\branding-pt-BR.css -&gt; C:\Users\Paski\source\repos\DataSet Help\Help\Working\Output\MSHelpViewer\styles\branding-pt-BR.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\styles\branding-ru-RU.css -&gt; C:\Users\Paski\source\repos\DataSet Help\Help\Working\Output\MSHelpViewer\styles\branding-ru-RU.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\styles\branding-tr-TR.css -&gt; C:\Users\Paski\source\repos\DataSet Help\Help\Working\Output\MSHelpViewer\styles\branding-tr-TR.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\styles\branding-Website.css -&gt; C:\Users\Paski\source\repos\DataSet Help\Help\Working\Output\MSHelpViewer\styles\branding-Website.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\styles\branding-zh-CN.css -&gt; C:\Users\Paski\source\repos\DataSet Help\Help\Working\Output\MSHelpViewer\styles\branding-zh-CN.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\styles\branding-zh-TW.css -&gt; C:\Users\Paski\source\repos\DataSet Help\Help\Working\Output\MSHelpViewer\styles\branding-zh-TW.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\styles\branding.css -&gt; C:\Users\Paski\source\repos\DataSet Help\Help\Working\Output\MSHelpViewer\styles\branding.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\icons\AlertCaution.png -&gt; C:\Users\Paski\source\repos\DataSet Help\Help\Working\Output\Website\icons\AlertCaution.png
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\icons\AlertNote.png -&gt; C:\Users\Paski\source\repos\DataSet Help\Help\Working\Output\Website\icons\AlertNote.png
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\icons\AlertSecurity.png -&gt; C:\Users\Paski\source\repos\DataSet Help\Help\Working\Output\Website\icons\AlertSecurity.png
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\icons\CFW.gif -&gt; C:\Users\Paski\source\repos\DataSet Help\Help\Working\Output\Website\icons\CFW.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\icons\CodeExample.png -&gt; C:\Users\Paski\source\repos\DataSet Help\Help\Working\Output\Website\icons\CodeExample.png
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\icons\favicon.ico -&gt; C:\Users\Paski\source\repos\DataSet Help\Help\Working\Output\Website\icons\favicon.ico
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\icons\privclass.gif -&gt; C:\Users\Paski\source\repos\DataSet Help\Help\Working\Output\Website\icons\privclass.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\icons\privdelegate.gif -&gt; C:\Users\Paski\source\repos\DataSet Help\Help\Working\Output\Website\icons\privdelegate.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\icons\privenumeration.gif -&gt; C:\Users\Paski\source\repos\DataSet Help\Help\Working\Output\Website\icons\privenumeration.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\icons\privevent.gif -&gt; C:\Users\Paski\source\repos\DataSet Help\Help\Working\Output\Website\icons\privevent.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\icons\privextension.gif -&gt; C:\Users\Paski\source\repos\DataSet Help\Help\Working\Output\Website\icons\privextension.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\icons\privfield.gif -&gt; C:\Users\Paski\source\repos\DataSet Help\Help\Working\Output\Website\icons\privfield.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\icons\privinterface.gif -&gt; C:\Users\Paski\source\repos\DataSet Help\Help\Working\Output\Website\icons\privinterface.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\icons\privmethod.gif -&gt; C:\Users\Paski\source\repos\DataSet Help\Help\Working\Output\Website\icons\privmethod.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\icons\privproperty.gif -&gt; C:\Users\Paski\source\repos\DataSet Help\Help\Working\Output\Website\icons\privproperty.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\icons\privstructure.gif -&gt; C:\Users\Paski\source\repos\DataSet Help\Help\Working\Output\Website\icons\privstructure.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\icons\protclass.gif -&gt; C:\Users\Paski\source\repos\DataSet Help\Help\Working\Output\Website\icons\protclass.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\icons\protdelegate.gif -&gt; C:\Users\Paski\source\repos\DataSet Help\Help\Working\Output\Website\icons\protdelegate.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\icons\protenumeration.gif -&gt; C:\Users\Paski\source\repos\DataSet Help\Help\Working\Output\Website\icons\protenumeration.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\icons\protevent.gif -&gt; C:\Users\Paski\source\repos\DataSet Help\Help\Working\Output\Website\icons\protevent.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\icons\protextension.gif -&gt; C:\Users\Paski\source\repos\DataSet Help\Help\Working\Output\Website\icons\protextension.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\icons\protfield.gif -&gt; C:\Users\Paski\source\repos\DataSet Help\Help\Working\Output\Website\icons\protfield.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\icons\protinterface.gif -&gt; C:\Users\Paski\source\repos\DataSet Help\Help\Working\Output\Website\icons\protinterface.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\icons\protmethod.gif -&gt; C:\Users\Paski\source\repos\DataSet Help\Help\Working\Output\Website\icons\protmethod.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\icons\protoperator.gif -&gt; C:\Users\Paski\source\repos\DataSet Help\Help\Working\Output\Website\icons\protoperator.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\icons\protproperty.gif -&gt; C:\Users\Paski\source\repos\DataSet Help\Help\Working\Output\Website\icons\protproperty.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\icons\protstructure.gif -&gt; C:\Users\Paski\source\repos\DataSet Help\Help\Working\Output\Website\icons\protstructure.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\icons\pubclass.gif -&gt; C:\Users\Paski\source\repos\DataSet Help\Help\Working\Output\Website\icons\pubclass.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\icons\pubdelegate.gif -&gt; C:\Users\Paski\source\repos\DataSet Help\Help\Working\Output\Website\icons\pubdelegate.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\icons\pubenumeration.gif -&gt; C:\Users\Paski\source\repos\DataSet Help\Help\Working\Output\Website\icons\pubenumeration.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\icons\pubevent.gif -&gt; C:\Users\Paski\source\repos\DataSet Help\Help\Working\Output\Website\icons\pubevent.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\icons\pubextension.gif -&gt; C:\Users\Paski\source\repos\DataSet Help\Help\Working\Output\Website\icons\pubextension.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\icons\pubfield.gif -&gt; C:\Users\Paski\source\repos\DataSet Help\Help\Working\Output\Website\icons\pubfield.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\icons\pubinterface.gif -&gt; C:\Users\Paski\source\repos\DataSet Help\Help\Working\Output\Website\icons\pubinterface.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\icons\pubmethod.gif -&gt; C:\Users\Paski\source\repos\DataSet Help\Help\Working\Output\Website\icons\pubmethod.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\icons\puboperator.gif -&gt; C:\Users\Paski\source\repos\DataSet Help\Help\Working\Output\Website\icons\puboperator.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\icons\pubproperty.gif -&gt; C:\Users\Paski\source\repos\DataSet Help\Help\Working\Output\Website\icons\pubproperty.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\icons\pubstructure.gif -&gt; C:\Users\Paski\source\repos\DataSet Help\Help\Working\Output\Website\icons\pubstructure.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\icons\SectionCollapsed.png -&gt; C:\Users\Paski\source\repos\DataSet Help\Help\Working\Output\Website\icons\SectionCollapsed.png
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\icons\SectionExpanded.png -&gt; C:\Users\Paski\source\repos\DataSet Help\Help\Working\Output\Website\icons\SectionExpanded.png
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\icons\slMobile.gif -&gt; C:\Users\Paski\source\repos\DataSet Help\Help\Working\Output\Website\icons\slMobile.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\icons\static.gif -&gt; C:\Users\Paski\source\repos\DataSet Help\Help\Working\Output\Website\icons\static.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\icons\xna.gif -&gt; C:\Users\Paski\source\repos\DataSet Help\Help\Working\Output\Website\icons\xna.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\scripts\branding.js -&gt; C:\Users\Paski\source\repos\DataSet Help\Help\Working\Output\Website\scripts\branding.js
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\styles\branding-cs-CZ.css -&gt; C:\Users\Paski\source\repos\DataSet Help\Help\Working\Output\Website\styles\branding-cs-CZ.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\styles\branding-de-DE.css -&gt; C:\Users\Paski\source\repos\DataSet Help\Help\Working\Output\Website\styles\branding-de-DE.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\styles\branding-en-US.css -&gt; C:\Users\Paski\source\repos\DataSet Help\Help\Working\Output\Website\styles\branding-en-US.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\styles\branding-es-ES.css -&gt; C:\Users\Paski\source\repos\DataSet Help\Help\Working\Output\Website\styles\branding-es-ES.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\styles\branding-fr-FR.css -&gt; C:\Users\Paski\source\repos\DataSet Help\Help\Working\Output\Website\styles\branding-fr-FR.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\styles\branding-Help1.css -&gt; C:\Users\Paski\source\repos\DataSet Help\Help\Working\Output\Website\styles\branding-Help1.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\styles\branding-HelpViewer.css -&gt; C:\Users\Paski\source\repos\DataSet Help\Help\Working\Output\Website\styles\branding-HelpViewer.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\styles\branding-it-IT.css -&gt; C:\Users\Paski\source\repos\DataSet Help\Help\Working\Output\Website\styles\branding-it-IT.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\styles\branding-ja-JP.css -&gt; C:\Users\Paski\source\repos\DataSet Help\Help\Working\Output\Website\styles\branding-ja-JP.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\styles\branding-ko-KR.css -&gt; C:\Users\Paski\source\repos\DataSet Help\Help\Working\Output\Website\styles\branding-ko-KR.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\styles\branding-pl-PL.css -&gt; C:\Users\Paski\source\repos\DataSet Help\Help\Working\Output\Website\styles\branding-pl-PL.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\styles\branding-pt-BR.css -&gt; C:\Users\Paski\source\repos\DataSet Help\Help\Working\Output\Website\styles\branding-pt-BR.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\styles\branding-ru-RU.css -&gt; C:\Users\Paski\source\repos\DataSet Help\Help\Working\Output\Website\styles\branding-ru-RU.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\styles\branding-tr-TR.css -&gt; C:\Users\Paski\source\repos\DataSet Help\Help\Working\Output\Website\styles\branding-tr-TR.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\styles\branding-Website.css -&gt; C:\Users\Paski\source\repos\DataSet Help\Help\Working\Output\Website\styles\branding-Website.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\styles\branding-zh-CN.css -&gt; C:\Users\Paski\source\repos\DataSet Help\Help\Working\Output\Website\styles\branding-zh-CN.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\styles\branding-zh-TW.css -&gt; C:\Users\Paski\source\repos\DataSet Help\Help\Working\Output\Website\styles\branding-zh-TW.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\styles\branding.css -&gt; C:\Users\Paski\source\repos\DataSet Help\Help\Working\Output\Website\styles\branding.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\Web\index.html -&gt; C:\Users\Paski\source\repos\DataSet Help\Help\Working\Output\Website\index.html
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\Web\search.html -&gt; C:\Users\Paski\source\repos\DataSet Help\Help\Working\Output\Website\search.html
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\Web\SearchHelp.aspx -&gt; C:\Users\Paski\source\repos\DataSet Help\Help\Working\Output\Website\SearchHelp.aspx
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\Web\SearchHelp.inc.php -&gt; C:\Users\Paski\source\repos\DataSet Help\Help\Working\Output\Website\SearchHelp.inc.php
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\Web\SearchHelp.php -&gt; C:\Users\Paski\source\repos\DataSet Help\Help\Working\Output\Website\SearchHelp.php
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\Web\Web.Config -&gt; C:\Users\Paski\source\repos\DataSet Help\Help\Working\Output\Website\Web.Config
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\Web\html\GeneralError.htm -&gt; C:\Users\Paski\source\repos\DataSet Help\Help\Working\Output\Website\html\GeneralError.htm
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\Web\html\PageNotFound.htm -&gt; C:\Users\Paski\source\repos\DataSet Help\Help\Working\Output\Website\html\PageNotFound.htm
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\Web\icons\Search.png -&gt; C:\Users\Paski\source\repos\DataSet Help\Help\Working\Output\Website\icons\Search.png
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\Web\icons\TocClose.gif -&gt; C:\Users\Paski\source\repos\DataSet Help\Help\Working\Output\Website\icons\TocClose.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\Web\icons\TocCollapsed.gif -&gt; C:\Users\Paski\source\repos\DataSet Help\Help\Working\Output\Website\icons\TocCollapsed.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\Web\icons\TocExpanded.gif -&gt; C:\Users\Paski\source\repos\DataSet Help\Help\Working\Output\Website\icons\TocExpanded.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\Web\icons\TocOpen.gif -&gt; C:\Users\Paski\source\repos\DataSet Help\Help\Working\Output\Website\icons\TocOpen.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\Web\scripts\branding-Website.js -&gt; C:\Users\Paski\source\repos\DataSet Help\Help\Working\Output\Website\scripts\branding-Website.js
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\Web\scripts\clipboard.min.js -&gt; C:\Users\Paski\source\repos\DataSet Help\Help\Working\Output\Website\scripts\clipboard.min.js
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\Web\scripts\jquery-3.5.1.min.js -&gt; C:\Users\Paski\source\repos\DataSet Help\Help\Working\Output\Website\scripts\jquery-3.5.1.min.js
+    Last step completed in 00:00:00,5316
+</buildStep>
+<buildStep step="GenerateHelpProject">
+Executing informational Generate Help Project build step for plug-ins (not used for MS Help Viewer)
+    Last step completed in 00:00:00,0000
+</buildStep>
+<buildStep step="CompilingHelpFile">
+Generating MS Help Viewer file...
+[C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\MSBuild.exe - BuildHelpViewerFile.proj]
+  Compressing help content files into C:\Users\Paski\source\repos\DataSet Help\Help\Ajuda.mshc
+  Finished saving C:\Users\Paski\source\repos\DataSet Help\Help\Ajuda.mshc
+  Compressed 5 folders, 187 files.  Reduced size by 2.266.843 bytes (85%).
+    Last step completed in 00:00:00,4688
+</buildStep>
+<buildStep step="GenerateFullTextIndex">
+Generating full-text index for the website...
+
+<plugIn name="Lightweight Website Style" behavior="After" priority="1000">
+Adding lightweight search and TOC elements to each topic...
+</plugIn>    Last step completed in 00:00:01,3115
+</buildStep>
+<buildStep step="CopyingWebsiteFiles">
+Copying website files to output folder...
+
+Copied 262 files for the website content
+    Last step completed in 00:00:01,0462
+</buildStep>
+<buildStep step="CleanIntermediates">
+Removing intermediate files...
+    Last step completed in 00:00:00,0937
+</buildStep>
+<buildStep step="Completed">
+
+Build completed successfully at 19/11/2021 20:05:56.  Total time: 00:03:36,5338
+
+</buildStep>
+</shfbBuild>

@@ -1,0 +1,224 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<HelpKI>
+  <HelpKINode Title="Action property" Url="html/338da9ce-857c-853f-b6ef-f34d9a2de305.htm" />
+  <HelpKINode Title="Adapter property" Url="html/3f33eb4d-6bd1-c053-14c7-d5f3cfb73da1.htm" />
+  <HelpKINode Title="AddAgenciesRow method" Url="html/0f6fcc37-c05c-0aab-2653-d6b7229e3ce8.htm" />
+  <HelpKINode Title="Agencies property" Url="html/d9c2ceda-b236-7480-fdbc-c502f6c64ffe.htm" />
+  <HelpKINode Title="AgenciesDataSet class">
+    <HelpKINode Title="AgenciesDataSet (Clase)" Url="html/830b7935-327a-7461-c120-f4c1c4ecdb1f.htm" />
+    <HelpKINode Title="constructor" Url="html/77d8fb91-f575-74f5-4181-f7640ff5cf82.htm" />
+    <HelpKINode Title="events" Url="html/dd8784d5-7d50-8d61-a776-29eb253b7566.htm" />
+    <HelpKINode Title="methods" Url="html/31301c28-0f4e-37a3-6484-5f2142cfd4a4.htm" />
+    <HelpKINode Title="properties" Url="html/585052d9-f1bc-5811-e6e0-2115bf1d3a72.htm" />
+  </HelpKINode>
+  <HelpKINode Title="AgenciesDataSet.Agencies property" Url="html/d9c2ceda-b236-7480-fdbc-c502f6c64ffe.htm" />
+  <HelpKINode Title="AgenciesDataSet.AgenciesDataSet constructor" Url="html/77d8fb91-f575-74f5-4181-f7640ff5cf82.htm" />
+  <HelpKINode Title="AgenciesDataSet.AgenciesDataTable class">
+    <HelpKINode Title="AgenciesDataSet.AgenciesDataTable (Clase)" Url="html/85bca2b1-8d3a-f01a-23de-e716fabd88c6.htm" />
+    <HelpKINode Title="constructor" Url="html/81a2d029-b78c-aadf-2f1a-d46147a85c61.htm" />
+  </HelpKINode>
+  <HelpKINode Title="AgenciesDataSet.AgenciesDataTable.AddAgenciesRow method" Url="html/0f6fcc37-c05c-0aab-2653-d6b7229e3ce8.htm" />
+  <HelpKINode Title="AgenciesDataSet.AgenciesDataTable.AgenciesDataTable constructor" Url="html/81a2d029-b78c-aadf-2f1a-d46147a85c61.htm" />
+  <HelpKINode Title="AgenciesDataSet.AgenciesDataTable.AgenciesRowChanged event" Url="html/5c84e3e5-ae60-299e-643c-fd2ffc368147.htm" />
+  <HelpKINode Title="AgenciesDataSet.AgenciesDataTable.AgenciesRowChanging event" Url="html/33f716c9-b541-a971-d32a-3c91b08b0899.htm" />
+  <HelpKINode Title="AgenciesDataSet.AgenciesDataTable.AgenciesRowDeleted event" Url="html/c1832085-0779-c19e-4585-24af221abea5.htm" />
+  <HelpKINode Title="AgenciesDataSet.AgenciesDataTable.AgenciesRowDeleting event" Url="html/c33b9920-caad-0a79-1ea2-2410f2d725b5.htm" />
+  <HelpKINode Title="AgenciesDataSet.AgenciesDataTable.Clone method" Url="html/c7a8853a-8630-5bea-ebf4-755a6521b265.htm" />
+  <HelpKINode Title="AgenciesDataSet.AgenciesDataTable.CodeAgencyColumn property" Url="html/b6881ee0-e682-c3f0-a894-dadb46f0f93b.htm" />
+  <HelpKINode Title="AgenciesDataSet.AgenciesDataTable.Count property" Url="html/008e5082-0bfc-be1b-5896-72eebf87414c.htm" />
+  <HelpKINode Title="AgenciesDataSet.AgenciesDataTable.CreateInstance method" Url="html/096f7e28-9b1c-94e2-aa7a-a02c6b871441.htm" />
+  <HelpKINode Title="AgenciesDataSet.AgenciesDataTable.DescAgencyColumn property" Url="html/bdca54fb-6d6e-952d-57a3-0a7c52d49d99.htm" />
+  <HelpKINode Title="AgenciesDataSet.AgenciesDataTable.FindByidAgency method" Url="html/45829122-e882-4c3f-2cbc-4f10ff3aef38.htm" />
+  <HelpKINode Title="AgenciesDataSet.AgenciesDataTable.GetRowType method" Url="html/7bae2b2f-f5b1-2037-cc76-1b89eb7a1137.htm" />
+  <HelpKINode Title="AgenciesDataSet.AgenciesDataTable.GetTypedTableSchema method" Url="html/deebeb90-5fb6-fcf1-2b4d-38ced1c70760.htm" />
+  <HelpKINode Title="AgenciesDataSet.AgenciesDataTable.idAgencyColumn property" Url="html/48ac890c-02d3-4c13-e101-c9c018ea5130.htm" />
+  <HelpKINode Title="AgenciesDataSet.AgenciesDataTable.Item property" Url="html/39523442-110d-da06-0d55-36be2be5d659.htm" />
+  <HelpKINode Title="AgenciesDataSet.AgenciesDataTable.NewAgenciesRow method" Url="html/ca7da33d-1a58-e06e-ad6b-e7cf947c5ec7.htm" />
+  <HelpKINode Title="AgenciesDataSet.AgenciesDataTable.NewRowFromBuilder method" Url="html/08b45eaa-3234-9d76-1323-129a54882fff.htm" />
+  <HelpKINode Title="AgenciesDataSet.AgenciesDataTable.OnRowChanged method" Url="html/e2fa7d69-72ad-1165-f8d0-1fa45af5c160.htm" />
+  <HelpKINode Title="AgenciesDataSet.AgenciesDataTable.OnRowChanging method" Url="html/13f4b0c5-b00e-8e7a-9b87-55ded1982293.htm" />
+  <HelpKINode Title="AgenciesDataSet.AgenciesDataTable.OnRowDeleted method" Url="html/f47aac42-c0c3-86c7-b212-dd3b1c05eb89.htm" />
+  <HelpKINode Title="AgenciesDataSet.AgenciesDataTable.OnRowDeleting method" Url="html/54f9d958-ac09-0344-2032-f62522887b71.htm" />
+  <HelpKINode Title="AgenciesDataSet.AgenciesDataTable.RemoveAgenciesRow method" Url="html/39e05a78-d079-4570-ddff-a63bfe3b60e3.htm" />
+  <HelpKINode Title="AgenciesDataSet.AgenciesRow class" Url="html/51ee8f1f-285f-3c3f-30c7-1937c65593de.htm" />
+  <HelpKINode Title="AgenciesDataSet.AgenciesRow.CodeAgency property" Url="html/50bddc09-eef5-5fab-9351-6973275489eb.htm" />
+  <HelpKINode Title="AgenciesDataSet.AgenciesRow.DescAgency property" Url="html/dafc627a-c41d-8bc6-e7d1-3cef01fb0c71.htm" />
+  <HelpKINode Title="AgenciesDataSet.AgenciesRow.idAgency property" Url="html/7f5eb6e6-2625-92f8-e2f2-38f83733b3b5.htm" />
+  <HelpKINode Title="AgenciesDataSet.AgenciesRow.IsCodeAgencyNull method" Url="html/23253dd5-79b7-fd96-10ec-2692922f851a.htm" />
+  <HelpKINode Title="AgenciesDataSet.AgenciesRow.IsDescAgencyNull method" Url="html/0fa2686a-9867-2f99-d2c4-cf58d8fab4f2.htm" />
+  <HelpKINode Title="AgenciesDataSet.AgenciesRow.SetCodeAgencyNull method" Url="html/a70e4e3d-2cdd-3e93-1580-dbdac32700da.htm" />
+  <HelpKINode Title="AgenciesDataSet.AgenciesRow.SetDescAgencyNull method" Url="html/02232c73-28fa-62c2-be4b-6c3584da9f9f.htm" />
+  <HelpKINode Title="AgenciesDataSet.AgenciesRowChangeEvent class">
+    <HelpKINode Title="AgenciesDataSet.AgenciesRowChangeEvent (Clase)" Url="html/3f1e4872-4206-3066-435e-2e16a285d5a2.htm" />
+    <HelpKINode Title="constructor" Url="html/6ef09e3a-0162-88f3-3e6d-2acd906c8516.htm" />
+  </HelpKINode>
+  <HelpKINode Title="AgenciesDataSet.AgenciesRowChangeEvent.Action property" Url="html/338da9ce-857c-853f-b6ef-f34d9a2de305.htm" />
+  <HelpKINode Title="AgenciesDataSet.AgenciesRowChangeEvent.AgenciesRowChangeEvent constructor" Url="html/6ef09e3a-0162-88f3-3e6d-2acd906c8516.htm" />
+  <HelpKINode Title="AgenciesDataSet.AgenciesRowChangeEvent.Row property" Url="html/a12b22f1-6f8a-8bb4-707b-fae3e1299a69.htm" />
+  <HelpKINode Title="AgenciesDataSet.AgenciesRowChangeEventHandler delegate" Url="html/c96f4e01-103d-f592-7c0c-9d0df6947c6a.htm" />
+  <HelpKINode Title="AgenciesDataSet.Clone method" Url="html/5a584ae9-9375-a43f-9dce-80cdb9e6933b.htm" />
+  <HelpKINode Title="AgenciesDataSet.GetSchemaSerializable method" Url="html/6409f79e-ef12-3aba-1fb8-a0ae57c0d171.htm" />
+  <HelpKINode Title="AgenciesDataSet.GetTypedDataSetSchema method" Url="html/902674e6-d15f-5dea-7259-ff56a1654b3d.htm" />
+  <HelpKINode Title="AgenciesDataSet.InitializeDerivedDataSet method" Url="html/08ba7365-aa16-6b01-913b-84b810493db4.htm" />
+  <HelpKINode Title="AgenciesDataSet.ReadXmlSerializable method" Url="html/22d2383b-5b9a-92c1-98fe-9a023e048606.htm" />
+  <HelpKINode Title="AgenciesDataSet.Relations property" Url="html/a3d7ae29-5c7d-e7d7-37dc-ea27109901d5.htm" />
+  <HelpKINode Title="AgenciesDataSet.SchemaSerializationMode property" Url="html/bda8db0b-0483-0193-11c6-98f3aab851a6.htm" />
+  <HelpKINode Title="AgenciesDataSet.ShouldSerializeRelations method" Url="html/01ec0ee2-ffbd-9013-aef7-1c189efa1166.htm" />
+  <HelpKINode Title="AgenciesDataSet.ShouldSerializeTables method" Url="html/abba90b0-60ac-d106-041d-f0b4ca456c01.htm" />
+  <HelpKINode Title="AgenciesDataSet.Tables property" Url="html/1137b28c-97a4-29c8-7f1a-635a6d374ca9.htm" />
+  <HelpKINode Title="AgenciesDataTable class">
+    <HelpKINode Title="events" Url="html/0be1c199-f784-008f-5fe0-7567e781a63e.htm" />
+    <HelpKINode Title="fields" Url="html/bb22735a-6f43-faa8-e6f6-3737e92dec50.htm" />
+    <HelpKINode Title="methods" Url="html/3bcb0b8a-275f-6dd0-bb6f-8bcd31987e22.htm" />
+    <HelpKINode Title="properties" Url="html/6d414318-2558-66d4-9afd-26eaba83e1d2.htm" />
+  </HelpKINode>
+  <HelpKINode Title="AgenciesRow class">
+    <HelpKINode Title="methods" Url="html/74ca6d3a-f721-6ea3-b9c8-b6ab12f7f658.htm" />
+    <HelpKINode Title="properties" Url="html/a3944b65-ff85-6bfc-dc4d-0476cfdd3f12.htm" />
+  </HelpKINode>
+  <HelpKINode Title="AgenciesRowChanged event" Url="html/5c84e3e5-ae60-299e-643c-fd2ffc368147.htm" />
+  <HelpKINode Title="AgenciesRowChangeEvent class">
+    <HelpKINode Title="methods" Url="html/21f47d61-5a89-8e08-46c8-d56b90d8ab18.htm" />
+    <HelpKINode Title="properties" Url="html/d2e6ca82-6888-ee99-149c-52e45ab2d1f0.htm" />
+  </HelpKINode>
+  <HelpKINode Title="AgenciesRowChanging event" Url="html/33f716c9-b541-a971-d32a-3c91b08b0899.htm" />
+  <HelpKINode Title="AgenciesRowDeleted event" Url="html/c1832085-0779-c19e-4585-24af221abea5.htm" />
+  <HelpKINode Title="AgenciesRowDeleting event" Url="html/c33b9920-caad-0a79-1ea2-2410f2d725b5.htm" />
+  <HelpKINode Title="AgenciesTableAdapter class">
+    <HelpKINode Title="AgenciesTableAdapter (Clase)" Url="html/d066e6c5-7fd2-bde4-1f9a-e8f05a454713.htm" />
+    <HelpKINode Title="constructor" Url="html/18110d50-4cfd-83fb-2e1a-b6865d798734.htm" />
+    <HelpKINode Title="events" Url="html/cab094c2-5002-fdca-91f1-6609e7aff59f.htm" />
+    <HelpKINode Title="methods" Url="html/5ef0f442-2eeb-e441-e10f-cbee4ece644d.htm" />
+    <HelpKINode Title="properties" Url="html/8a5fec1e-75b3-b80b-51e7-ed74382c1a90.htm" />
+  </HelpKINode>
+  <HelpKINode Title="AgenciesTableAdapter property" Url="html/f6ecf240-09c1-56f5-b33d-c57fbbb07cb3.htm" />
+  <HelpKINode Title="AgenciesTableAdapter.Adapter property" Url="html/3f33eb4d-6bd1-c053-14c7-d5f3cfb73da1.htm" />
+  <HelpKINode Title="AgenciesTableAdapter.AgenciesTableAdapter constructor" Url="html/18110d50-4cfd-83fb-2e1a-b6865d798734.htm" />
+  <HelpKINode Title="AgenciesTableAdapter.ClearBeforeFill property" Url="html/260f64be-696c-ca52-912e-f37f6a2a1a5a.htm" />
+  <HelpKINode Title="AgenciesTableAdapter.CommandCollection property" Url="html/8caee8fb-3d2b-474d-5d0f-4cc33e08da4f.htm" />
+  <HelpKINode Title="AgenciesTableAdapter.Delete method" Url="html/491ac41a-1217-664d-a86f-e2b066ccdb68.htm" />
+  <HelpKINode Title="AgenciesTableAdapter.Fill method" Url="html/8810fb60-ff73-606b-19db-b08a84bec0b4.htm" />
+  <HelpKINode Title="AgenciesTableAdapter.GetData method" Url="html/25849d87-3506-7e1f-8fff-4a570279e542.htm" />
+  <HelpKINode Title="AgenciesTableAdapter.Insert method" Url="html/3fd5b46f-25ec-9949-eecd-0933ca5c5b9e.htm" />
+  <HelpKINode Title="AgenciesTableAdapter.Update method" Url="html/7e65020a-db12-48f7-0401-055740dd94a3.htm" />
+  <HelpKINode Title="BackupDataSetBeforeUpdate property" Url="html/806f177d-ca74-e250-7d21-d60b89f5df14.htm" />
+  <HelpKINode Title="CampBuit property" Url="html/dc8bcc43-b307-add8-c3de-6ef5c440b222.htm" />
+  <HelpKINode Title="ClauForana property" Url="html/b4bddd4a-6329-0577-cafa-2f7eab07a614.htm" />
+  <HelpKINode Title="ClearBeforeFill property" Url="html/260f64be-696c-ca52-912e-f37f6a2a1a5a.htm" />
+  <HelpKINode Title="Clone method">
+    <HelpKINode Title="AgenciesDataSet.AgenciesDataTable.Clone (M&#233;todo )" Url="html/c7a8853a-8630-5bea-ebf4-755a6521b265.htm" />
+    <HelpKINode Title="AgenciesDataSet.Clone (M&#233;todo )" Url="html/5a584ae9-9375-a43f-9dce-80cdb9e6933b.htm" />
+  </HelpKINode>
+  <HelpKINode Title="CodeAgency property" Url="html/50bddc09-eef5-5fab-9351-6973275489eb.htm" />
+  <HelpKINode Title="CodeAgencyColumn property" Url="html/b6881ee0-e682-c3f0-a894-dadb46f0f93b.htm" />
+  <HelpKINode Title="codi enumeration member" Url="html/00de54e5-e2bb-db7f-562b-8e4cbdd06b5a.htm" />
+  <HelpKINode Title="CommandCollection property" Url="html/8caee8fb-3d2b-474d-5d0f-4cc33e08da4f.htm" />
+  <HelpKINode Title="Connection property" Url="html/dd7b576a-1306-507a-47a8-544c0275ce7a.htm" />
+  <HelpKINode Title="Count property" Url="html/008e5082-0bfc-be1b-5896-72eebf87414c.htm" />
+  <HelpKINode Title="CreateInstance method" Url="html/096f7e28-9b1c-94e2-aa7a-a02c6b871441.htm" />
+  <HelpKINode Title="data enumeration member" Url="html/00de54e5-e2bb-db7f-562b-8e4cbdd06b5a.htm" />
+  <HelpKINode Title="DatasetIndividual namespace" Url="html/c1a2804d-a10a-21db-a4b5-aeddbb5e1e2c.htm" />
+  <HelpKINode Title="DatasetIndividual.AgenciesDataSet class" Url="html/830b7935-327a-7461-c120-f4c1c4ecdb1f.htm" />
+  <HelpKINode Title="DatasetIndividual.AgenciesDataSet.AgenciesDataTable class" Url="html/85bca2b1-8d3a-f01a-23de-e716fabd88c6.htm" />
+  <HelpKINode Title="DatasetIndividual.AgenciesDataSet.AgenciesRow class" Url="html/51ee8f1f-285f-3c3f-30c7-1937c65593de.htm" />
+  <HelpKINode Title="DatasetIndividual.AgenciesDataSet.AgenciesRowChangeEvent class" Url="html/3f1e4872-4206-3066-435e-2e16a285d5a2.htm" />
+  <HelpKINode Title="DatasetIndividual.AgenciesDataSet.AgenciesRowChangeEventHandler delegate" Url="html/c96f4e01-103d-f592-7c0c-9d0df6947c6a.htm" />
+  <HelpKINode Title="DatasetIndividual.AgenciesDataSetTableAdapters namespace" Url="html/ece9e79d-adbe-a301-4a89-c2a84d104ccb.htm" />
+  <HelpKINode Title="DatasetIndividual.AgenciesDataSetTableAdapters.AgenciesTableAdapter class" Url="html/d066e6c5-7fd2-bde4-1f9a-e8f05a454713.htm" />
+  <HelpKINode Title="DatasetIndividual.AgenciesDataSetTableAdapters.TableAdapterManager class" Url="html/64c29335-9183-9b28-c92a-483961c20192.htm" />
+  <HelpKINode Title="DatasetIndividual.AgenciesDataSetTableAdapters.TableAdapterManager.UpdateOrderOption enumeration" Url="html/d377986d-5e4c-8ac1-ab23-cd6015ebd954.htm" />
+  <HelpKINode Title="DatasetIndividual.Frm_Cerca class" Url="html/1d80ef43-f98f-bab6-6e7f-15329473975a.htm" />
+  <HelpKINode Title="Delete method" Url="html/491ac41a-1217-664d-a86f-e2b066ccdb68.htm" />
+  <HelpKINode Title="DescAgency property" Url="html/dafc627a-c41d-8bc6-e7d1-3cef01fb0c71.htm" />
+  <HelpKINode Title="DescAgencyColumn property" Url="html/bdca54fb-6d6e-952d-57a3-0a7c52d49d99.htm" />
+  <HelpKINode Title="Dispose method" Url="html/d95b6c10-c6ff-f434-e30d-cce644c46918.htm" />
+  <HelpKINode Title="Fill method" Url="html/8810fb60-ff73-606b-19db-b08a84bec0b4.htm" />
+  <HelpKINode Title="FindByidAgency method" Url="html/45829122-e882-4c3f-2cbc-4f10ff3aef38.htm" />
+  <HelpKINode Title="Frm_Cerca class">
+    <HelpKINode Title="Frm_Cerca (Clase)" Url="html/1d80ef43-f98f-bab6-6e7f-15329473975a.htm" />
+    <HelpKINode Title="constructor" Url="html/905277c8-9749-87a8-1bc4-02b6e63fdd22.htm" />
+    <HelpKINode Title="events" Url="html/caf3f8ed-493a-c4d9-1312-5ca47ce342a5.htm" />
+    <HelpKINode Title="methods" Url="html/9733b027-d70f-90a1-d4dd-a74f939f727e.htm" />
+    <HelpKINode Title="properties" Url="html/bc211e5b-ae08-f44a-42fc-93b5c101533c.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Frm_Cerca.Dispose method" Url="html/d95b6c10-c6ff-f434-e30d-cce644c46918.htm" />
+  <HelpKINode Title="Frm_Cerca.Frm_Cerca constructor" Url="html/905277c8-9749-87a8-1bc4-02b6e63fdd22.htm" />
+  <HelpKINode Title="GetData method" Url="html/25849d87-3506-7e1f-8fff-4a570279e542.htm" />
+  <HelpKINode Title="GetRowType method" Url="html/7bae2b2f-f5b1-2037-cc76-1b89eb7a1137.htm" />
+  <HelpKINode Title="GetSchemaSerializable method" Url="html/6409f79e-ef12-3aba-1fb8-a0ae57c0d171.htm" />
+  <HelpKINode Title="GetTypedDataSetSchema method" Url="html/902674e6-d15f-5dea-7259-ff56a1654b3d.htm" />
+  <HelpKINode Title="GetTypedTableSchema method" Url="html/deebeb90-5fb6-fcf1-2b4d-38ced1c70760.htm" />
+  <HelpKINode Title="idAgency property" Url="html/7f5eb6e6-2625-92f8-e2f2-38f83733b3b5.htm" />
+  <HelpKINode Title="idAgencyColumn property" Url="html/48ac890c-02d3-4c13-e101-c9c018ea5130.htm" />
+  <HelpKINode Title="InheritedControls namespace" Url="html/ce458624-4bff-7638-7a38-2e78ce27a7a4.htm" />
+  <HelpKINode Title="InheritedControls.SWTextBox class" Url="html/e3b6023a-1c85-478d-d7d2-8f1ae770c77a.htm" />
+  <HelpKINode Title="InheritedControls.SWTextBox.TipusTextBox enumeration" Url="html/00de54e5-e2bb-db7f-562b-8e4cbdd06b5a.htm" />
+  <HelpKINode Title="InitializeDerivedDataSet method" Url="html/08ba7365-aa16-6b01-913b-84b810493db4.htm" />
+  <HelpKINode Title="Insert method" Url="html/3fd5b46f-25ec-9949-eecd-0933ca5c5b9e.htm" />
+  <HelpKINode Title="InsertUpdateDelete enumeration member" Url="html/d377986d-5e4c-8ac1-ab23-cd6015ebd954.htm" />
+  <HelpKINode Title="IsCodeAgencyNull method" Url="html/23253dd5-79b7-fd96-10ec-2692922f851a.htm" />
+  <HelpKINode Title="IsDescAgencyNull method" Url="html/0fa2686a-9867-2f99-d2c4-cf58d8fab4f2.htm" />
+  <HelpKINode Title="Item property" Url="html/39523442-110d-da06-0d55-36be2be5d659.htm" />
+  <HelpKINode Title="MatchTableAdapterConnection method" Url="html/eecafca2-85dc-f1c9-f26c-06764d6fa2b1.htm" />
+  <HelpKINode Title="NewAgenciesRow method" Url="html/ca7da33d-1a58-e06e-ad6b-e7cf947c5ec7.htm" />
+  <HelpKINode Title="NewRowFromBuilder method" Url="html/08b45eaa-3234-9d76-1323-129a54882fff.htm" />
+  <HelpKINode Title="nombre enumeration member" Url="html/00de54e5-e2bb-db7f-562b-8e4cbdd06b5a.htm" />
+  <HelpKINode Title="NomControl property" Url="html/69b39ff9-ab3b-f204-5d17-b4d8853ef5d8.htm" />
+  <HelpKINode Title="OnRowChanged method" Url="html/e2fa7d69-72ad-1165-f8d0-1fa45af5c160.htm" />
+  <HelpKINode Title="OnRowChanging method" Url="html/13f4b0c5-b00e-8e7a-9b87-55ded1982293.htm" />
+  <HelpKINode Title="OnRowDeleted method" Url="html/f47aac42-c0c3-86c7-b212-dd3b1c05eb89.htm" />
+  <HelpKINode Title="OnRowDeleting method" Url="html/54f9d958-ac09-0344-2032-f62522887b71.htm" />
+  <HelpKINode Title="ReadXmlSerializable method" Url="html/22d2383b-5b9a-92c1-98fe-9a023e048606.htm" />
+  <HelpKINode Title="Relations property" Url="html/a3d7ae29-5c7d-e7d7-37dc-ea27109901d5.htm" />
+  <HelpKINode Title="RemoveAgenciesRow method" Url="html/39e05a78-d079-4570-ddff-a63bfe3b60e3.htm" />
+  <HelpKINode Title="Row property" Url="html/a12b22f1-6f8a-8bb4-707b-fae3e1299a69.htm" />
+  <HelpKINode Title="SchemaSerializationMode property" Url="html/bda8db0b-0483-0193-11c6-98f3aab851a6.htm" />
+  <HelpKINode Title="SetCodeAgencyNull method" Url="html/a70e4e3d-2cdd-3e93-1580-dbdac32700da.htm" />
+  <HelpKINode Title="SetDescAgencyNull method" Url="html/02232c73-28fa-62c2-be4b-6c3584da9f9f.htm" />
+  <HelpKINode Title="ShouldSerializeRelations method" Url="html/01ec0ee2-ffbd-9013-aef7-1c189efa1166.htm" />
+  <HelpKINode Title="ShouldSerializeTables method" Url="html/abba90b0-60ac-d106-041d-f0b4ca456c01.htm" />
+  <HelpKINode Title="SortSelfReferenceRows method" Url="html/54816ab0-34af-a37b-1301-70eab9816bb7.htm" />
+  <HelpKINode Title="SWTextBox class">
+    <HelpKINode Title="SWTextBox (Clase)" Url="html/e3b6023a-1c85-478d-d7d2-8f1ae770c77a.htm" />
+    <HelpKINode Title="constructor" Url="html/e8b0f090-9f2e-0771-06b8-feabd07c01c7.htm" />
+    <HelpKINode Title="events" Url="html/58612545-fa62-7102-a7d9-91ff7aeb78ea.htm" />
+    <HelpKINode Title="methods" Url="html/d57b0c1c-c548-e680-b989-4f65d8b87c1e.htm" />
+    <HelpKINode Title="properties" Url="html/39a3b0f2-7460-4c53-563b-1edebdea99da.htm" />
+  </HelpKINode>
+  <HelpKINode Title="SWTextBox.CampBuit property" Url="html/dc8bcc43-b307-add8-c3de-6ef5c440b222.htm" />
+  <HelpKINode Title="SWTextBox.ClauForana property" Url="html/b4bddd4a-6329-0577-cafa-2f7eab07a614.htm" />
+  <HelpKINode Title="SWTextBox.NomControl property" Url="html/69b39ff9-ab3b-f204-5d17-b4d8853ef5d8.htm" />
+  <HelpKINode Title="SWTextBox.SWTextBox constructor" Url="html/e8b0f090-9f2e-0771-06b8-feabd07c01c7.htm" />
+  <HelpKINode Title="SWTextBox.Tipus property" Url="html/556a5071-d2ee-1726-e4fe-f7bcec343a69.htm" />
+  <HelpKINode Title="SWTextBox.TipusTextBox enumeration" Url="html/00de54e5-e2bb-db7f-562b-8e4cbdd06b5a.htm" />
+  <HelpKINode Title="TableAdapterInstanceCount property" Url="html/269b1bf4-3be8-6c81-6376-3746caab90ec.htm" />
+  <HelpKINode Title="TableAdapterManager class">
+    <HelpKINode Title="TableAdapterManager (Clase)" Url="html/64c29335-9183-9b28-c92a-483961c20192.htm" />
+    <HelpKINode Title="constructor" Url="html/b818909e-6b00-76f5-d9c9-7e8f738db671.htm" />
+    <HelpKINode Title="events" Url="html/6108ecd9-761a-4f86-9497-6c16425b8d55.htm" />
+    <HelpKINode Title="methods" Url="html/028cabed-ca9e-b6e3-479e-39bf5b4d0746.htm" />
+    <HelpKINode Title="properties" Url="html/7950cf58-22a3-d883-3104-a9c00b6f175a.htm" />
+  </HelpKINode>
+  <HelpKINode Title="TableAdapterManager.AgenciesTableAdapter property" Url="html/f6ecf240-09c1-56f5-b33d-c57fbbb07cb3.htm" />
+  <HelpKINode Title="TableAdapterManager.BackupDataSetBeforeUpdate property" Url="html/806f177d-ca74-e250-7d21-d60b89f5df14.htm" />
+  <HelpKINode Title="TableAdapterManager.Connection property" Url="html/dd7b576a-1306-507a-47a8-544c0275ce7a.htm" />
+  <HelpKINode Title="TableAdapterManager.MatchTableAdapterConnection method" Url="html/eecafca2-85dc-f1c9-f26c-06764d6fa2b1.htm" />
+  <HelpKINode Title="TableAdapterManager.SortSelfReferenceRows method" Url="html/54816ab0-34af-a37b-1301-70eab9816bb7.htm" />
+  <HelpKINode Title="TableAdapterManager.TableAdapterInstanceCount property" Url="html/269b1bf4-3be8-6c81-6376-3746caab90ec.htm" />
+  <HelpKINode Title="TableAdapterManager.TableAdapterManager constructor" Url="html/b818909e-6b00-76f5-d9c9-7e8f738db671.htm" />
+  <HelpKINode Title="TableAdapterManager.UpdateAll method" Url="html/e9b1c2ef-56a2-5647-1847-e69638b2b708.htm" />
+  <HelpKINode Title="TableAdapterManager.UpdateOrder property" Url="html/3dc66955-095d-0390-38d8-8477699fa90a.htm" />
+  <HelpKINode Title="TableAdapterManager.UpdateOrderOption enumeration" Url="html/d377986d-5e4c-8ac1-ab23-cd6015ebd954.htm" />
+  <HelpKINode Title="Tables property" Url="html/1137b28c-97a4-29c8-7f1a-635a6d374ca9.htm" />
+  <HelpKINode Title="text enumeration member" Url="html/00de54e5-e2bb-db7f-562b-8e4cbdd06b5a.htm" />
+  <HelpKINode Title="Tipus property" Url="html/556a5071-d2ee-1726-e4fe-f7bcec343a69.htm" />
+  <HelpKINode Title="Update method" Url="html/7e65020a-db12-48f7-0401-055740dd94a3.htm" />
+  <HelpKINode Title="UpdateAll method" Url="html/e9b1c2ef-56a2-5647-1847-e69638b2b708.htm" />
+  <HelpKINode Title="UpdateInsertDelete enumeration member" Url="html/d377986d-5e4c-8ac1-ab23-cd6015ebd954.htm" />
+  <HelpKINode Title="UpdateOrder property" Url="html/3dc66955-095d-0390-38d8-8477699fa90a.htm" />
+  <HelpKINode Title="version">
+    <HelpKINode Title="1.0.0.0" Url="html/e49cd672-be63-4818-ae05-6c4419c9d329.htm" />
+    <HelpKINode Title="history" Url="html/896a55b1-c6d6-49d8-b0b6-47c82eac7213.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Welcome" Url="html/d78bf204-fbaa-4d17-aeda-8c198f7612fd.htm" />
+</HelpKI>

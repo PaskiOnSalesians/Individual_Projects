@@ -1,0 +1,158 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<HelpTOC>
+
+  <HelpTOCNode Title="Welcome to the [TODO: Add project name]" Url="html/d78bf204-fbaa-4d17-aeda-8c198f7612fd.htm" />
+  <HelpTOCNode Id="852b2c5b-2f67-4725-87fd-8c67e6b9fc64" Title="Version History" Url="html/896a55b1-c6d6-49d8-b0b6-47c82eac7213.htm">
+    <HelpTOCNode Title="Version 1.0.0.0" Url="html/e49cd672-be63-4818-ae05-6c4419c9d329.htm" />
+  </HelpTOCNode>
+  <HelpTOCNode Id="a665d24e-4488-45e8-aeaf-9b63d525e1e3" Title="DatasetIndividual" Url="html/c1a2804d-a10a-21db-a4b5-aeddbb5e1e2c.htm">
+    <HelpTOCNode Id="8b043ae6-61a3-4c63-8089-341473aeb15e" Title="AgenciesDataSet (Clase)" Url="html/830b7935-327a-7461-c120-f4c1c4ecdb1f.htm">
+      <HelpTOCNode Id="36fd145e-14e8-4c14-8600-04d0b0493f9a" Title="AgenciesDataSet (Constructor )" Url="html/77d8fb91-f575-74f5-4181-f7640ff5cf82.htm">
+        <HelpTOCNode Title="AgenciesDataSet (Constructor )" Url="html/e370387f-7719-734b-d1a0-dd1ddda573bc.htm" />
+        <HelpTOCNode Title="AgenciesDataSet (Constructor (SerializationInfo, StreamingContext))" Url="html/1fd70aee-d605-199a-ba94-beea33fc0a46.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="ee5c64a3-66b7-4498-8a95-1256c62807c0" Title="AgenciesDataSet (Propiedades)" Url="html/585052d9-f1bc-5811-e6e0-2115bf1d3a72.htm">
+        <HelpTOCNode Title="Agencies (Propiedad )" Url="html/d9c2ceda-b236-7480-fdbc-c502f6c64ffe.htm" />
+        <HelpTOCNode Title="Relations (Propiedad )" Url="html/a3d7ae29-5c7d-e7d7-37dc-ea27109901d5.htm" />
+        <HelpTOCNode Title="SchemaSerializationMode (Propiedad )" Url="html/bda8db0b-0483-0193-11c6-98f3aab851a6.htm" />
+        <HelpTOCNode Title="Tables (Propiedad )" Url="html/1137b28c-97a4-29c8-7f1a-635a6d374ca9.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="ff6dae91-9b07-48e7-ac03-620bac44c587" Title="AgenciesDataSet (M&#233;todos)" Url="html/31301c28-0f4e-37a3-6484-5f2142cfd4a4.htm">
+        <HelpTOCNode Title="Clone (M&#233;todo )" Url="html/5a584ae9-9375-a43f-9dce-80cdb9e6933b.htm" />
+        <HelpTOCNode Title="GetSchemaSerializable (M&#233;todo )" Url="html/6409f79e-ef12-3aba-1fb8-a0ae57c0d171.htm" />
+        <HelpTOCNode Title="GetTypedDataSetSchema (M&#233;todo )" Url="html/902674e6-d15f-5dea-7259-ff56a1654b3d.htm" />
+        <HelpTOCNode Title="InitializeDerivedDataSet (M&#233;todo )" Url="html/08ba7365-aa16-6b01-913b-84b810493db4.htm" />
+        <HelpTOCNode Title="ReadXmlSerializable (M&#233;todo )" Url="html/22d2383b-5b9a-92c1-98fe-9a023e048606.htm" />
+        <HelpTOCNode Title="ShouldSerializeRelations (M&#233;todo )" Url="html/01ec0ee2-ffbd-9013-aef7-1c189efa1166.htm" />
+        <HelpTOCNode Title="ShouldSerializeTables (M&#233;todo )" Url="html/abba90b0-60ac-d106-041d-f0b4ca456c01.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="AgenciesDataSet (Eventos)" Url="html/dd8784d5-7d50-8d61-a776-29eb253b7566.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="b7e559f1-cb34-47d9-ba9d-516313f1420d" Title="AgenciesDataSet.AgenciesDataTable (Clase)" Url="html/85bca2b1-8d3a-f01a-23de-e716fabd88c6.htm">
+      <HelpTOCNode Id="d3b2c4d3-c258-44cd-9e0d-9c4912c255cf" Title="AgenciesDataTable (Constructor )" Url="html/81a2d029-b78c-aadf-2f1a-d46147a85c61.htm">
+        <HelpTOCNode Title="AgenciesDataSet.AgenciesDataTable (Constructor )" Url="html/3fe4342d-44b5-a721-3d60-cb83dc5b313e.htm" />
+        <HelpTOCNode Title="AgenciesDataSet.AgenciesDataTable (Constructor (SerializationInfo, StreamingContext))" Url="html/b70e9b08-20c6-5926-4cb2-271a9df23702.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="5267a4f5-3657-4a86-bda7-1472a476354a" Title="AgenciesDataTable (Propiedades)" Url="html/6d414318-2558-66d4-9afd-26eaba83e1d2.htm">
+        <HelpTOCNode Title="CodeAgencyColumn (Propiedad )" Url="html/b6881ee0-e682-c3f0-a894-dadb46f0f93b.htm" />
+        <HelpTOCNode Title="Count (Propiedad )" Url="html/008e5082-0bfc-be1b-5896-72eebf87414c.htm" />
+        <HelpTOCNode Title="DescAgencyColumn (Propiedad )" Url="html/bdca54fb-6d6e-952d-57a3-0a7c52d49d99.htm" />
+        <HelpTOCNode Title="idAgencyColumn (Propiedad )" Url="html/48ac890c-02d3-4c13-e101-c9c018ea5130.htm" />
+        <HelpTOCNode Title="Item (Propiedad )" Url="html/39523442-110d-da06-0d55-36be2be5d659.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="818daa19-1139-4d4a-bc8d-cf2051236ebe" Title="AgenciesDataTable (M&#233;todos)" Url="html/3bcb0b8a-275f-6dd0-bb6f-8bcd31987e22.htm">
+        <HelpTOCNode Id="e484999d-e50e-4c8b-8282-3aa94330f7dc" Title="AddAgenciesRow (M&#233;todo )" Url="html/0f6fcc37-c05c-0aab-2653-d6b7229e3ce8.htm">
+          <HelpTOCNode Title="AddAgenciesRow (M&#233;todo (AgenciesDataSet.AgenciesRow))" Url="html/2b74d462-3173-77c2-a48e-ccac4bfba227.htm" />
+          <HelpTOCNode Title="AddAgenciesRow (M&#233;todo (String, String))" Url="html/d9fc85d5-3c3c-7b64-a417-284214e784c1.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="Clone (M&#233;todo )" Url="html/c7a8853a-8630-5bea-ebf4-755a6521b265.htm" />
+        <HelpTOCNode Title="CreateInstance (M&#233;todo )" Url="html/096f7e28-9b1c-94e2-aa7a-a02c6b871441.htm" />
+        <HelpTOCNode Title="FindByidAgency (M&#233;todo )" Url="html/45829122-e882-4c3f-2cbc-4f10ff3aef38.htm" />
+        <HelpTOCNode Title="GetRowType (M&#233;todo )" Url="html/7bae2b2f-f5b1-2037-cc76-1b89eb7a1137.htm" />
+        <HelpTOCNode Title="GetTypedTableSchema (M&#233;todo )" Url="html/deebeb90-5fb6-fcf1-2b4d-38ced1c70760.htm" />
+        <HelpTOCNode Title="NewAgenciesRow (M&#233;todo )" Url="html/ca7da33d-1a58-e06e-ad6b-e7cf947c5ec7.htm" />
+        <HelpTOCNode Title="NewRowFromBuilder (M&#233;todo )" Url="html/08b45eaa-3234-9d76-1323-129a54882fff.htm" />
+        <HelpTOCNode Title="OnRowChanged (M&#233;todo )" Url="html/e2fa7d69-72ad-1165-f8d0-1fa45af5c160.htm" />
+        <HelpTOCNode Title="OnRowChanging (M&#233;todo )" Url="html/13f4b0c5-b00e-8e7a-9b87-55ded1982293.htm" />
+        <HelpTOCNode Title="OnRowDeleted (M&#233;todo )" Url="html/f47aac42-c0c3-86c7-b212-dd3b1c05eb89.htm" />
+        <HelpTOCNode Title="OnRowDeleting (M&#233;todo )" Url="html/54f9d958-ac09-0344-2032-f62522887b71.htm" />
+        <HelpTOCNode Title="RemoveAgenciesRow (M&#233;todo )" Url="html/39e05a78-d079-4570-ddff-a63bfe3b60e3.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="aa4d884b-83c9-43da-a0da-6986677c233c" Title="AgenciesDataTable (Eventos)" Url="html/0be1c199-f784-008f-5fe0-7567e781a63e.htm">
+        <HelpTOCNode Title="AgenciesRowChanged (Evento)" Url="html/5c84e3e5-ae60-299e-643c-fd2ffc368147.htm" />
+        <HelpTOCNode Title="AgenciesRowChanging (Evento)" Url="html/33f716c9-b541-a971-d32a-3c91b08b0899.htm" />
+        <HelpTOCNode Title="AgenciesRowDeleted (Evento)" Url="html/c1832085-0779-c19e-4585-24af221abea5.htm" />
+        <HelpTOCNode Title="AgenciesRowDeleting (Evento)" Url="html/c33b9920-caad-0a79-1ea2-2410f2d725b5.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="AgenciesDataTable (Campos)" Url="html/bb22735a-6f43-faa8-e6f6-3737e92dec50.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="ef44313f-6d75-413f-b1b8-0b38e133ac9c" Title="AgenciesDataSet.AgenciesRow (Clase)" Url="html/51ee8f1f-285f-3c3f-30c7-1937c65593de.htm">
+      <HelpTOCNode Id="985ffbb2-6a52-4dc4-95ce-cda886e2a37c" Title="AgenciesRow (Propiedades)" Url="html/a3944b65-ff85-6bfc-dc4d-0476cfdd3f12.htm">
+        <HelpTOCNode Title="CodeAgency (Propiedad )" Url="html/50bddc09-eef5-5fab-9351-6973275489eb.htm" />
+        <HelpTOCNode Title="DescAgency (Propiedad )" Url="html/dafc627a-c41d-8bc6-e7d1-3cef01fb0c71.htm" />
+        <HelpTOCNode Title="idAgency (Propiedad )" Url="html/7f5eb6e6-2625-92f8-e2f2-38f83733b3b5.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="e4080816-03d6-4427-a97e-1796dc9b91ce" Title="AgenciesRow (M&#233;todos)" Url="html/74ca6d3a-f721-6ea3-b9c8-b6ab12f7f658.htm">
+        <HelpTOCNode Title="IsCodeAgencyNull (M&#233;todo )" Url="html/23253dd5-79b7-fd96-10ec-2692922f851a.htm" />
+        <HelpTOCNode Title="IsDescAgencyNull (M&#233;todo )" Url="html/0fa2686a-9867-2f99-d2c4-cf58d8fab4f2.htm" />
+        <HelpTOCNode Title="SetCodeAgencyNull (M&#233;todo )" Url="html/a70e4e3d-2cdd-3e93-1580-dbdac32700da.htm" />
+        <HelpTOCNode Title="SetDescAgencyNull (M&#233;todo )" Url="html/02232c73-28fa-62c2-be4b-6c3584da9f9f.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="5e054c71-ad85-4548-bdde-98fe70b4da16" Title="AgenciesDataSet.AgenciesRowChangeEvent (Clase)" Url="html/3f1e4872-4206-3066-435e-2e16a285d5a2.htm">
+      <HelpTOCNode Title="AgenciesDataSet.AgenciesRowChangeEvent (Constructor )" Url="html/6ef09e3a-0162-88f3-3e6d-2acd906c8516.htm" />
+      <HelpTOCNode Id="a7f59c17-1480-4ba8-a966-b0c5f864d7d5" Title="AgenciesRowChangeEvent (Propiedades)" Url="html/d2e6ca82-6888-ee99-149c-52e45ab2d1f0.htm">
+        <HelpTOCNode Title="Action (Propiedad )" Url="html/338da9ce-857c-853f-b6ef-f34d9a2de305.htm" />
+        <HelpTOCNode Title="Row (Propiedad )" Url="html/a12b22f1-6f8a-8bb4-707b-fae3e1299a69.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="AgenciesRowChangeEvent (M&#233;todos)" Url="html/21f47d61-5a89-8e08-46c8-d56b90d8ab18.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Title="AgenciesDataSet.AgenciesRowChangeEventHandler (Delegado)" Url="html/c96f4e01-103d-f592-7c0c-9d0df6947c6a.htm" />
+    <HelpTOCNode Id="84bf80b5-4fe2-4a3e-a103-49440875406f" Title="Frm_Cerca (Clase)" Url="html/1d80ef43-f98f-bab6-6e7f-15329473975a.htm">
+      <HelpTOCNode Title="Frm_Cerca (Constructor )" Url="html/905277c8-9749-87a8-1bc4-02b6e63fdd22.htm" />
+      <HelpTOCNode Title="Frm_Cerca (Propiedades)" Url="html/bc211e5b-ae08-f44a-42fc-93b5c101533c.htm" />
+      <HelpTOCNode Id="f6f2365d-533f-4e30-9d04-434506952382" Title="Frm_Cerca (M&#233;todos)" Url="html/9733b027-d70f-90a1-d4dd-a74f939f727e.htm">
+        <HelpTOCNode Id="b80c9439-5af5-45de-a98b-f8a525d5c0ff" Title="Dispose (M&#233;todo )" Url="html/d95b6c10-c6ff-f434-e30d-cce644c46918.htm">
+          <HelpTOCNode Title="Dispose (M&#233;todo (Boolean))" Url="html/056ff8ea-cf8b-375d-84eb-cbbfae262dcc.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Title="Frm_Cerca (Eventos)" Url="html/caf3f8ed-493a-c4d9-1312-5ca47ce342a5.htm" />
+    </HelpTOCNode>
+  </HelpTOCNode>
+  <HelpTOCNode Id="8549871d-7b03-4fa8-ab57-24a0f3b5c987" Title="DatasetIndividual.AgenciesDataSetTableAdapters" Url="html/ece9e79d-adbe-a301-4a89-c2a84d104ccb.htm">
+    <HelpTOCNode Id="3c2bf507-ee17-4176-9ddc-7e2d305318b0" Title="AgenciesTableAdapter (Clase)" Url="html/d066e6c5-7fd2-bde4-1f9a-e8f05a454713.htm">
+      <HelpTOCNode Title="AgenciesTableAdapter (Constructor )" Url="html/18110d50-4cfd-83fb-2e1a-b6865d798734.htm" />
+      <HelpTOCNode Id="dfef7ca9-c7b2-4152-b549-85ad2c20eaf3" Title="AgenciesTableAdapter (Propiedades)" Url="html/8a5fec1e-75b3-b80b-51e7-ed74382c1a90.htm">
+        <HelpTOCNode Title="Adapter (Propiedad )" Url="html/3f33eb4d-6bd1-c053-14c7-d5f3cfb73da1.htm" />
+        <HelpTOCNode Title="ClearBeforeFill (Propiedad )" Url="html/260f64be-696c-ca52-912e-f37f6a2a1a5a.htm" />
+        <HelpTOCNode Title="CommandCollection (Propiedad )" Url="html/8caee8fb-3d2b-474d-5d0f-4cc33e08da4f.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="366c311a-800d-47d8-9e69-5d390de22d5e" Title="AgenciesTableAdapter (M&#233;todos)" Url="html/5ef0f442-2eeb-e441-e10f-cbee4ece644d.htm">
+        <HelpTOCNode Title="Delete (M&#233;todo )" Url="html/491ac41a-1217-664d-a86f-e2b066ccdb68.htm" />
+        <HelpTOCNode Title="Fill (M&#233;todo )" Url="html/8810fb60-ff73-606b-19db-b08a84bec0b4.htm" />
+        <HelpTOCNode Title="GetData (M&#233;todo )" Url="html/25849d87-3506-7e1f-8fff-4a570279e542.htm" />
+        <HelpTOCNode Title="Insert (M&#233;todo )" Url="html/3fd5b46f-25ec-9949-eecd-0933ca5c5b9e.htm" />
+        <HelpTOCNode Id="f4906319-0ac0-47f8-8cd9-ed483e3e3072" Title="Update (M&#233;todo )" Url="html/7e65020a-db12-48f7-0401-055740dd94a3.htm">
+          <HelpTOCNode Title="Update (M&#233;todo (AgenciesDataSet))" Url="html/03412c47-f87e-7f7c-1dd1-95052e9ee7b6.htm" />
+          <HelpTOCNode Title="Update (M&#233;todo (AgenciesDataSet.AgenciesDataTable))" Url="html/4ae71518-d45e-e2a1-c99a-92133db83f04.htm" />
+          <HelpTOCNode Title="Update (M&#233;todo (DataRow))" Url="html/4448d08c-69f5-45ca-5169-fb560ce3439b.htm" />
+          <HelpTOCNode Title="Update (M&#233;todo (DataRow[]))" Url="html/cfbb940e-aeff-bcf5-59cc-5b298f028b94.htm" />
+          <HelpTOCNode Title="Update (M&#233;todo (String, String, Int16, String, String))" Url="html/aca120e2-a051-7e7f-6213-52305be481d0.htm" />
+          <HelpTOCNode Title="Update (M&#233;todo (String, String, Int16, String, String, Int16))" Url="html/89c37d53-bbfb-af61-2a8a-84be61527e3b.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Title="AgenciesTableAdapter (Eventos)" Url="html/cab094c2-5002-fdca-91f1-6609e7aff59f.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="f73de865-dcb0-41fc-9a7c-211705067a5e" Title="TableAdapterManager (Clase)" Url="html/64c29335-9183-9b28-c92a-483961c20192.htm">
+      <HelpTOCNode Title="TableAdapterManager (Constructor )" Url="html/b818909e-6b00-76f5-d9c9-7e8f738db671.htm" />
+      <HelpTOCNode Id="f002ca47-57c0-4879-8772-cd61854fd419" Title="TableAdapterManager (Propiedades)" Url="html/7950cf58-22a3-d883-3104-a9c00b6f175a.htm">
+        <HelpTOCNode Title="AgenciesTableAdapter (Propiedad )" Url="html/f6ecf240-09c1-56f5-b33d-c57fbbb07cb3.htm" />
+        <HelpTOCNode Title="BackupDataSetBeforeUpdate (Propiedad )" Url="html/806f177d-ca74-e250-7d21-d60b89f5df14.htm" />
+        <HelpTOCNode Title="Connection (Propiedad )" Url="html/dd7b576a-1306-507a-47a8-544c0275ce7a.htm" />
+        <HelpTOCNode Title="TableAdapterInstanceCount (Propiedad )" Url="html/269b1bf4-3be8-6c81-6376-3746caab90ec.htm" />
+        <HelpTOCNode Title="UpdateOrder (Propiedad )" Url="html/3dc66955-095d-0390-38d8-8477699fa90a.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="7a366a34-4ba4-450d-8f78-f5dc3837e0e8" Title="TableAdapterManager (M&#233;todos)" Url="html/028cabed-ca9e-b6e3-479e-39bf5b4d0746.htm">
+        <HelpTOCNode Title="MatchTableAdapterConnection (M&#233;todo )" Url="html/eecafca2-85dc-f1c9-f26c-06764d6fa2b1.htm" />
+        <HelpTOCNode Title="SortSelfReferenceRows (M&#233;todo )" Url="html/54816ab0-34af-a37b-1301-70eab9816bb7.htm" />
+        <HelpTOCNode Title="UpdateAll (M&#233;todo )" Url="html/e9b1c2ef-56a2-5647-1847-e69638b2b708.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="TableAdapterManager (Eventos)" Url="html/6108ecd9-761a-4f86-9497-6c16425b8d55.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Title="TableAdapterManager.UpdateOrderOption (Enumeraci&#243;n)" Url="html/d377986d-5e4c-8ac1-ab23-cd6015ebd954.htm" />
+  </HelpTOCNode>
+  <HelpTOCNode Id="ac2502b9-fa27-438c-87a0-5c55ab712ad4" Title="InheritedControls" Url="html/ce458624-4bff-7638-7a38-2e78ce27a7a4.htm">
+    <HelpTOCNode Id="fcd795a3-c1be-4151-a20e-2e55cef98daa" Title="SWTextBox (Clase)" Url="html/e3b6023a-1c85-478d-d7d2-8f1ae770c77a.htm">
+      <HelpTOCNode Title="SWTextBox (Constructor )" Url="html/e8b0f090-9f2e-0771-06b8-feabd07c01c7.htm" />
+      <HelpTOCNode Id="262dafdc-13ae-4fde-ad99-517e21c8b27d" Title="SWTextBox (Propiedades)" Url="html/39a3b0f2-7460-4c53-563b-1edebdea99da.htm">
+        <HelpTOCNode Title="CampBuit (Propiedad )" Url="html/dc8bcc43-b307-add8-c3de-6ef5c440b222.htm" />
+        <HelpTOCNode Title="ClauForana (Propiedad )" Url="html/b4bddd4a-6329-0577-cafa-2f7eab07a614.htm" />
+        <HelpTOCNode Title="NomControl (Propiedad )" Url="html/69b39ff9-ab3b-f204-5d17-b4d8853ef5d8.htm" />
+        <HelpTOCNode Title="Tipus (Propiedad )" Url="html/556a5071-d2ee-1726-e4fe-f7bcec343a69.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="SWTextBox (M&#233;todos)" Url="html/d57b0c1c-c548-e680-b989-4f65d8b87c1e.htm" />
+      <HelpTOCNode Title="SWTextBox (Eventos)" Url="html/58612545-fa62-7102-a7d9-91ff7aeb78ea.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Title="SWTextBox.TipusTextBox (Enumeraci&#243;n)" Url="html/00de54e5-e2bb-db7f-562b-8e4cbdd06b5a.htm" />
+  </HelpTOCNode>
+</HelpTOC>

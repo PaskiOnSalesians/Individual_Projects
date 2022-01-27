@@ -1,0 +1,20 @@
+﻿<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Ajuda per a crear el DataSet per a modificar uns registres</title>
+</head>
+<body class="vendor-book">
+    <div class="details">
+        <span class="vendor">Vendor Name</span>
+        <span class="locale">es-es</span>
+        <span class="product">Ajuda per a crear el DataSet per a modificar uns registres</span>
+        <span class="name">Ajuda per a crear el DataSet per a modificar uns registres</span>
+    </div>
+    <div class="package-list">
+        <div class="package">
+            <!-- NOTE: The "name" span value cannot contain any periods! -->
+            <span class="name">Ajuda</span>
+            <a class="current-link" href="Ajuda.mshc">Ajuda.mshc</a>
+        </div>
+    </div>
+</body>
+</html>

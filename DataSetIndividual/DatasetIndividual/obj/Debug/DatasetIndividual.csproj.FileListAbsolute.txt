@@ -1,0 +1,13 @@
+C:\Users\Paski\source\repos\DatasetIndividual\obj\Debug\DatasetIndividual.csproj.AssemblyReference.cache
+C:\Users\Paski\source\repos\DatasetIndividual\obj\Debug\DatasetIndividual.Frm_Cerca.resources
+C:\Users\Paski\source\repos\DatasetIndividual\obj\Debug\DatasetIndividual.Properties.Resources.resources
+C:\Users\Paski\source\repos\DatasetIndividual\obj\Debug\DatasetIndividual.csproj.GenerateResource.cache
+C:\Users\Paski\source\repos\DatasetIndividual\obj\Debug\DatasetIndividual.csproj.CoreCompileInputs.cache
+C:\Users\Paski\source\repos\DatasetIndividual\bin\Debug\DatasetIndividual.exe.config
+C:\Users\Paski\source\repos\DatasetIndividual\bin\Debug\DatasetIndividual.exe
+C:\Users\Paski\source\repos\DatasetIndividual\bin\Debug\DatasetIndividual.pdb
+C:\Users\Paski\source\repos\DatasetIndividual\bin\Debug\InheritedControls.dll
+C:\Users\Paski\source\repos\DatasetIndividual\bin\Debug\InheritedControls.pdb
+C:\Users\Paski\source\repos\DatasetIndividual\obj\Debug\DatasetIndividual.exe
+C:\Users\Paski\source\repos\DatasetIndividual\obj\Debug\DatasetIndividual.pdb
+C:\Users\Paski\source\repos\DatasetIndividual\bin\Debug\DatasetIndividual.xml
