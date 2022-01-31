@@ -16,7 +16,7 @@ namespace PracticaRSA
 {
     public partial class frmEncriptar : Form
     {
-        private static RSACryptoServiceProvider rsaEnc = new RSACryptoServiceProvider();
+        private RSACryptoServiceProvider rsaEnc = new RSACryptoServiceProvider();
         string xmlKey;
         byte[] dataEncrypted;
         string address;
@@ -72,7 +72,6 @@ namespace PracticaRSA
 
                 dataEncrypted = rsaEnc.Encrypt(dataToEncrypt, false);
                 tbx_crypted.Text = BitConverter.ToString(dataEncrypted);
-                //encryptedData = rsaEnc.Encrypt(dataToEncrypt, false);
             }
             catch
             {
@@ -84,17 +83,19 @@ namespace PracticaRSA
         {
             try
             {
-                foreach (TextBox txtBox in )
+                foreach (Form frm in Application.OpenForms)
                 {
-
+                    if (frm.Name == "frmDesencriptar")
+                    {
+                        frmDesencriptar frmDes = (frmDesencriptar)frm;
+                        frmDes.EncryptedMessage = dataEncrypted;
+                    }
                 }
             }
             catch
             {
                 MessageBox.Show("No s'ha pogut enviar el missatge encriptat.", "DEncrypt - Error 17");
             }
-
-            //frmDesencriptar.EncryptedMessage = dataEncrypted;
         }
     }
 }

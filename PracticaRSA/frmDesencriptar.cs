@@ -15,7 +15,7 @@ namespace PracticaRSA
     public partial class frmDesencriptar : Form
     {
         private static CspParameters cspp = new CspParameters();
-        private static RSACryptoServiceProvider rsa = new RSACryptoServiceProvider(cspp);
+        private RSACryptoServiceProvider rsa = new RSACryptoServiceProvider(cspp);
 
         string keyName, fileAddress;
 
@@ -95,9 +95,10 @@ namespace PracticaRSA
 
         private void frmDesencriptar_Activated(object sender, EventArgs e)
         {
-            if(KeysGenerated == true)
+            UnicodeEncoding ByteConverter = new UnicodeEncoding();
+            if (KeysGenerated == true)
             {
-                this.tbx_crypted.Text = BitConverter.ToString(EncryptedMessage);
+                this.tbx_crypted.Text = ByteConverter.GetString(EncryptedMessage);
             }
         }
 
@@ -105,17 +106,17 @@ namespace PracticaRSA
         {
             try
             {
-                // tbx_crypted.Text = BitConverter.ToString(dataEncrypted);
+                UnicodeEncoding ByteConverter = new UnicodeEncoding();
 
                 CspParameters cspp = new CspParameters();
-                //string keyName = tbx_container.Text;
+                string keyName = tbx_container.Text;
 
                 cspp.KeyContainerName = keyName;
                 RSACryptoServiceProvider rsa = new RSACryptoServiceProvider(cspp);
 
                 byte[] DataDecrypted = rsa.Decrypt(EncryptedMessage, false);
 
-                tbx_decrypted.Text = Encoding.Default.GetString(DataDecrypted);
+                tbx_decrypted.Text = ByteConverter.GetString(DataDecrypted);
             }
             catch
             {
