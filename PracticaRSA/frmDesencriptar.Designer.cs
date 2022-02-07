@@ -175,7 +175,6 @@
             this.Controls.Add(this.pnl_keys);
             this.Name = "frmDesencriptar";
             this.Text = "Desencriptar";
-            this.Activated += new System.EventHandler(this.frmDesencriptar_Activated);
             this.pnl_keys.ResumeLayout(false);
             this.pnl_keys.PerformLayout();
             this.ResumeLayout(false);

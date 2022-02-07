@@ -16,8 +16,6 @@ namespace PracticaRSA
 {
     public partial class frmEncriptar : Form
     {
-        private RSACryptoServiceProvider rsaEnc = new RSACryptoServiceProvider();
-        string xmlKey;
         byte[] dataEncrypted;
         string address;
 
@@ -40,9 +38,6 @@ namespace PracticaRSA
                 {
                     address = Path.GetFullPath(fileExplorer.FileName);
                 }
-
-                xmlKey = File.ReadAllText(address);
-                rsaEnc.FromXmlString(xmlKey);
             }
             catch
             {
@@ -55,6 +50,10 @@ namespace PracticaRSA
         {
             try
             {
+                RSACryptoServiceProvider rsaEnc = new RSACryptoServiceProvider();
+                string xmlKey = File.ReadAllText(address);
+                rsaEnc.FromXmlString(xmlKey);
+
                 tbx_pubkey.Text = xmlKey;
             }
             catch
@@ -70,8 +69,16 @@ namespace PracticaRSA
                 UnicodeEncoding ByteConverter = new UnicodeEncoding();
                 byte[] dataToEncrypt = ByteConverter.GetBytes(tbx_original.Text);
 
-                dataEncrypted = rsaEnc.Encrypt(dataToEncrypt, false);
-                tbx_crypted.Text = BitConverter.ToString(dataEncrypted);
+                RSACryptoServiceProvider rsaEnc = new RSACryptoServiceProvider();
+                string xmlKey = File.ReadAllText(address);
+                rsaEnc.FromXmlString(xmlKey);
+
+                using (rsaEnc)
+                {
+                    dataEncrypted = rsaEnc.Encrypt(dataToEncrypt, false);
+                }
+
+                tbx_crypted.Text = ByteConverter.GetString(dataEncrypted);
             }
             catch
             {
@@ -85,10 +92,17 @@ namespace PracticaRSA
             {
                 foreach (Form frm in Application.OpenForms)
                 {
-                    if (frm.Name == "frmDesencriptar")
+                    if (frm.Name.Equals("frmDesencriptar"))
                     {
                         frmDesencriptar frmDes = (frmDesencriptar)frm;
                         frmDes.EncryptedMessage = dataEncrypted;
+                        foreach (Control txtbox in frmDes.Controls)
+                        {
+                            if (txtbox.Name.Equals("tbx_crypted"))
+                            {
+                                txtbox.Text = tbx_crypted.Text;
+                            }
+                        }
                     }
                 }
             }

@@ -14,14 +14,9 @@ namespace PracticaRSA
 {
     public partial class frmDesencriptar : Form
     {
-        private static CspParameters cspp = new CspParameters();
-        private RSACryptoServiceProvider rsa = new RSACryptoServiceProvider(cspp);
+        CspParameters cspp = new CspParameters();
 
-        string keyName, fileAddress;
 
-        public static string fileKey;
-
-        //public static byte[] EncryptedMessage;
 
         private byte[] _EncryptedMessage;
 
@@ -36,20 +31,13 @@ namespace PracticaRSA
         public frmDesencriptar()
         {
             InitializeComponent();
-
-            keyName = tbx_container.Text;
-            CryptoRSA(keyName);
-        }
-
-        private void CryptoRSA(string nomClau)
-        {
-            cspp.KeyContainerName = nomClau;
-
-            rsa.PersistKeyInCsp = true;
         }
 
         private void btn_routeXML_Click(object sender, EventArgs e)
         {
+
+            string fileAddress = "";
+
             try
             {
                 SaveFileDialog fileExplorer = new SaveFileDialog();
@@ -65,7 +53,6 @@ namespace PracticaRSA
                 }
 
                 tbx_routeXML.Text = fileAddress;
-                fileKey = tbx_routeXML.Text;
             }
             catch
             {
@@ -78,6 +65,12 @@ namespace PracticaRSA
         {
             try
             {
+                string keyName = tbx_container.Text;
+                cspp.KeyContainerName = keyName;
+
+                RSACryptoServiceProvider rsa = new RSACryptoServiceProvider(cspp);
+                rsa.PersistKeyInCsp = true;
+
                 string publicKey = rsa.ToXmlString(false);
                 string privateKey = rsa.ToXmlString(true);
 
@@ -93,28 +86,18 @@ namespace PracticaRSA
             }
         }
 
-        private void frmDesencriptar_Activated(object sender, EventArgs e)
-        {
-            UnicodeEncoding ByteConverter = new UnicodeEncoding();
-            if (KeysGenerated == true)
-            {
-                this.tbx_crypted.Text = ByteConverter.GetString(EncryptedMessage);
-            }
-        }
-
         private void btn_decrypt_Click(object sender, EventArgs e)
         {
             try
             {
                 UnicodeEncoding ByteConverter = new UnicodeEncoding();
 
-                CspParameters cspp = new CspParameters();
                 string keyName = tbx_container.Text;
-
                 cspp.KeyContainerName = keyName;
-                RSACryptoServiceProvider rsa = new RSACryptoServiceProvider(cspp);
 
-                byte[] DataDecrypted = rsa.Decrypt(EncryptedMessage, false);
+                RSACryptoServiceProvider rsaEnc = new RSACryptoServiceProvider(cspp);
+
+                byte[] DataDecrypted = rsaEnc.Decrypt(EncryptedMessage, false);
 
                 tbx_decrypted.Text = ByteConverter.GetString(DataDecrypted);
             }

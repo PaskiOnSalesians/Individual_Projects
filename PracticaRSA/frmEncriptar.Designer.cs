@@ -54,6 +54,7 @@
             this.tbx_pubkey.Location = new System.Drawing.Point(25, 183);
             this.tbx_pubkey.Multiline = true;
             this.tbx_pubkey.Name = "tbx_pubkey";
+            this.tbx_pubkey.ReadOnly = true;
             this.tbx_pubkey.Size = new System.Drawing.Size(460, 145);
             this.tbx_pubkey.TabIndex = 33;
             // 
