@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace PracticaRSA
+namespace Threads_Files
 {
     static class Program
     {
@@ -16,7 +16,7 @@ namespace PracticaRSA
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new frmMain());
+            Application.Run(new Form1());
         }
     }
 }
