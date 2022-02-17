@@ -1,0 +1,10 @@
+C:\Users\Paski\Documents\GitHub\Projectes-Individuals-Salesians\Threads_Files\Threads_Files\bin\Debug\Threads_Files.exe.config
+C:\Users\Paski\Documents\GitHub\Projectes-Individuals-Salesians\Threads_Files\Threads_Files\bin\Debug\Threads_Files.exe
+C:\Users\Paski\Documents\GitHub\Projectes-Individuals-Salesians\Threads_Files\Threads_Files\bin\Debug\Threads_Files.pdb
+C:\Users\Paski\Documents\GitHub\Projectes-Individuals-Salesians\Threads_Files\Threads_Files\obj\Debug\Threads_Files.csproj.AssemblyReference.cache
+C:\Users\Paski\Documents\GitHub\Projectes-Individuals-Salesians\Threads_Files\Threads_Files\obj\Debug\Threads_Files.Properties.Resources.resources
+C:\Users\Paski\Documents\GitHub\Projectes-Individuals-Salesians\Threads_Files\Threads_Files\obj\Debug\Threads_Files.csproj.GenerateResource.cache
+C:\Users\Paski\Documents\GitHub\Projectes-Individuals-Salesians\Threads_Files\Threads_Files\obj\Debug\Threads_Files.csproj.CoreCompileInputs.cache
+C:\Users\Paski\Documents\GitHub\Projectes-Individuals-Salesians\Threads_Files\Threads_Files\obj\Debug\Threads_Files.exe
+C:\Users\Paski\Documents\GitHub\Projectes-Individuals-Salesians\Threads_Files\Threads_Files\obj\Debug\Threads_Files.pdb
+C:\Users\Paski\Documents\GitHub\Projectes-Individuals-Salesians\Threads_Files\Threads_Files\obj\Debug\Threads_Files.frmThreadFiles.resources

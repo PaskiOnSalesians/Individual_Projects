@@ -1,7 +1,7 @@
 ﻿
 namespace Threads_Files
 {
-    partial class Form1
+    partial class frmThreadFiles
     {
         /// <summary>
         /// Variable del diseñador necesaria.
@@ -89,10 +89,11 @@ namespace Threads_Files
             this.btn_files.UseVisualStyleBackColor = true;
             this.btn_files.Click += new System.EventHandler(this.btn_files_Click);
             // 
-            // Form1
+            // frmThreadFiles
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoScaleDimensions = new System.Drawing.SizeF(96F, 96F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Dpi;
+            this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.ClientSize = new System.Drawing.Size(239, 211);
             this.Controls.Add(this.btn_files);
             this.Controls.Add(this.btn_codif);
@@ -100,7 +101,8 @@ namespace Threads_Files
             this.Controls.Add(this.txtbox_files);
             this.Controls.Add(this.lbl_lletres);
             this.Controls.Add(this.lbl_files);
-            this.Name = "Form1";
+            this.MinimumSize = new System.Drawing.Size(255, 250);
+            this.Name = "frmThreadFiles";
             this.Text = "Threads & Files";
             this.ResumeLayout(false);
             this.PerformLayout();
