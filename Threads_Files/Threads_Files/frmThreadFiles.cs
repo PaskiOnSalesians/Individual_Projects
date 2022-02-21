@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.IO;
 using System.Linq;
 using System.Security.Cryptography;
 using System.Text;
@@ -14,26 +15,37 @@ namespace Threads_Files
 {
     public partial class frmThreadFiles : Form
     {
-        List<string> vocalsXifrades;
+        List<codificacio> vocalsXifrades;
 
         public frmThreadFiles()
         {
             InitializeComponent();
         }
 
+        // Generar Codificacion
+        #region Generar Codificacion
         private void btn_codif_Click(object sender, EventArgs e)
         {
-            vocalsXifrades = new List<string>();
+            vocalsXifrades = new List<codificacio>() {
+                new codificacio(){ vowel = 'a', encoded = encriptVowel()},
+                new codificacio(){ vowel = 'e', encoded = encriptVowel()},
+                new codificacio(){ vowel = 'i', encoded = encriptVowel()},
+                new codificacio(){ vowel = 'o', encoded = encriptVowel()},
+                new codificacio(){ vowel = 'u', encoded = encriptVowel()}
+        };
 
-            vocalsXifrades.Add(string.Format("a:{0}", encriptVowel()));
-
-            MessageBox.Show(vocalsXifrades[0]);
-            //vocalsXifrades.Add("e", encriptVowel());
-            //vocalsXifrades.Add("i", encriptVowel());
-            //vocalsXifrades.Add("o", encriptVowel());
-            //vocalsXifrades.Add("u", encriptVowel());   
+            using(StreamWriter sw = new StreamWriter("C:\\temp\\codificacio.txt"))
+            {
+                for(int i = 0; i < vocalsXifrades.Count; i++)
+                {
+                    sw.WriteLine(vocalsXifrades[i].vowel + ":" + vocalsXifrades[i].encoded);
+                }
+            } 
         }
+        #endregion
 
+        // Encriptar Vocales
+        #region Encriptar Vocales
         private string encriptVowel()
         {
             string lletraXifrada = ""; // String Resultat
@@ -54,26 +66,32 @@ namespace Threads_Files
 
             Random rng = new Random(randomInteger); // numero aleatori
 
-            int randomNumber, pos, xifratge;
+            int randomNumber, pos, xifratge, limitNombres;
             ArrayList nombres = new ArrayList(); // Array de nombres de 0-9
-            ArrayList lletres = new ArrayList();
 
-            for(int i = 0; i < 10; i++) // Omplir array de 0-9
+            for (int i = 0; i < 10; i++) // Omplir array de 0-9
             {
                 nombres.Add(i);
             }
 
-            foreach(Object obj in nombres)
+            limitNombres = nombres.Count;
+
+            while(limitNombres > 0)
             {
-                randomNumber = rng.Next(0, 9);
-                if (nombres.Contains(randomNumber)) // Si l'array conte el nombre
+                randomNumber = rng.Next(0, 10); // Aquest ha de ser 10 perque no esta inclos, per tant genera fins al 9
+                if (!cua.Contains(randomNumber)) // Si l'array conte el nombre
                 {
                     pos = nombres.IndexOf(randomNumber); // Treu la posicio a l'array del nombre aleatori
                     cua.Enqueue((int)nombres[pos]); // El posa en una cua
+                    nombres.RemoveAt(pos);
+
+                    Console.WriteLine(randomNumber);
+
+                    limitNombres--;
                 }
             }
 
-            Console.WriteLine(nombres.Count);
+            //Console.WriteLine(nombres.Count);
 
             for (int i = 0; i < 10; i++) // Tots els nombres del array inicial
             {
@@ -81,14 +99,19 @@ namespace Threads_Files
                 lletraXifrada += xifratge.ToString();
             }
 
-            Console.WriteLine(lletraXifrada);
-
             return lletraXifrada;
         }
+        #endregion
 
         private void btn_files_Click(object sender, EventArgs e)
         {
 
         }
+    }
+
+    public class codificacio
+    {
+        public char vowel { get; set; }
+        public string encoded { get; set; }
     }
 }
