@@ -32,9 +32,9 @@ namespace Threads_Files
                 new codificacio(){ vowel = 'i', encoded = encriptVowel()},
                 new codificacio(){ vowel = 'o', encoded = encriptVowel()},
                 new codificacio(){ vowel = 'u', encoded = encriptVowel()}
-        };
+            };
 
-            using(StreamWriter sw = new StreamWriter("C:\\temp\\codificacio.txt"))
+            using(StreamWriter sw = new StreamWriter(Application.StartupPath + "\\codificacio.txt"))
             {
                 for(int i = 0; i < vocalsXifrades.Count; i++)
                 {
@@ -85,7 +85,7 @@ namespace Threads_Files
                     cua.Enqueue((int)nombres[pos]); // El posa en una cua
                     nombres.RemoveAt(pos);
 
-                    Console.WriteLine(randomNumber);
+                    //Console.WriteLine(randomNumber);
 
                     limitNombres--;
                 }
@@ -105,7 +105,43 @@ namespace Threads_Files
 
         private void btn_files_Click(object sender, EventArgs e)
         {
+            int nombreFitxers;
+            string dir = Application.StartupPath + "\\fitxers";
+            string rndChar;
 
+            nombreFitxers = Int32.Parse(txtbox_files.Text);
+
+            //FileStream fs = File.Create(path)
+            for (int i = 0; i < nombreFitxers; i++)
+            {
+                if (!Directory.Exists(dir))
+                {
+                    Directory.CreateDirectory(dir);
+                }
+                else
+                {
+                    DirectoryInfo di = new DirectoryInfo(dir);
+
+                    foreach(FileInfo file in di.GetFiles())
+                    {
+                        file.Delete();
+                    }
+                }
+
+                using (FileStream fs = File.Create(dir + "\\fitxer" + i + ".txt"))
+                {
+                    rndChar = randomChars();
+                    //fs.Write(,0,);
+                    //fs.Write(info, 0, info.Length);
+                }
+                    
+            }
+        }
+
+        private string randomChars()
+        {
+
+            return "";
         }
     }
 
