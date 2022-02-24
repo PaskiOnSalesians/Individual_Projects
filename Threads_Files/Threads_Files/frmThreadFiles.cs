@@ -1,13 +1,10 @@
 ﻿using System;
 using System.Collections;
 using System.Collections.Generic;
+
 using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.IO;
-using System.Linq;
 using System.Security.Cryptography;
-using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
@@ -16,6 +13,8 @@ namespace Threads_Files
     public partial class frmThreadFiles : Form
     {
         List<codificacio> vocalsXifrades;
+
+        private static string dir = Application.StartupPath + "\\fitxers";
 
         public frmThreadFiles()
         {
@@ -52,19 +51,9 @@ namespace Threads_Files
 
             Queue<int> cua = new Queue<int>(); // Cua
 
-            // Aconseguir inici del Random
-            #region RNGCryptoServiceProvider
+            int IntegerIni = RNGCrypto();
 
-            RNGCryptoServiceProvider rngC = new RNGCryptoServiceProvider();
-
-            byte[] byteArray = new byte[4];
-            rngC.GetBytes(byteArray);
-
-            int randomInteger = (int) BitConverter.ToUInt32(byteArray, 0);
-
-            #endregion
-
-            Random rng = new Random(randomInteger); // numero aleatori
+            Random rng = new Random(IntegerIni); // numero aleatori
 
             int randomNumber, pos, xifratge, limitNombres;
             ArrayList nombres = new ArrayList(); // Array de nombres de 0-9
@@ -103,46 +92,128 @@ namespace Threads_Files
         }
         #endregion
 
+        // RNG Crypto Service Provider
+        #region RNGCryptoServiceProvider
+        private int RNGCrypto()
+        {
+            RNGCryptoServiceProvider rngC = new RNGCryptoServiceProvider();
+
+            byte[] byteArray = new byte[4];
+            rngC.GetBytes(byteArray);
+
+            int randomInteger = (int)BitConverter.ToUInt32(byteArray, 0);
+
+            return randomInteger;
+        }
+        #endregion
+
+        // Generar Fitxers amb lletres
+        #region Generar Fitxers
         private void btn_files_Click(object sender, EventArgs e)
         {
-            int nombreFitxers;
-            string dir = Application.StartupPath + "\\fitxers";
-            string rndChar;
-
-            nombreFitxers = Int32.Parse(txtbox_files.Text);
-
-            //FileStream fs = File.Create(path)
-            for (int i = 0; i < nombreFitxers; i++)
+            try
             {
-                if (!Directory.Exists(dir))
+                if(Int32.Parse(txtbox_files.Text) >= 100 && Int32.Parse(txtbox_lletres.Text) >= 1000)
                 {
-                    Directory.CreateDirectory(dir);
+                    Thread t1 = new Thread(existeixDirectori);
+                    t1.Start(); // Inicia el fil de la creacio del directori "fitxers"
+                    MessageBox.Show("Fitxers Generats!");
+
+                    Thread t2 = new Thread(crearZip);
+                    t2.Start();
+                    MessageBox.Show("Compressió realitzada!");
                 }
                 else
                 {
-                    DirectoryInfo di = new DirectoryInfo(dir);
-
-                    foreach(FileInfo file in di.GetFiles())
-                    {
-                        file.Delete();
-                    }
+                    MessageBox.Show("Han de ser minim 100 fitxers i 1000 lletres per fitxer.", "Error 005");
                 }
+            }
+            catch(Exception ex)
+            {
+                MessageBox.Show(ex.ToString()); //"Falta omplir els camps de dalt.", "Error 007"
+            }
+            
+        }
 
+        #endregion
+
+        #region Creacio i comprovacio del directori
+        private void existeixDirectori()
+        {
+            string rndChar;
+            int nombreFitxers = Int32.Parse(txtbox_files.Text);
+
+            if (!Directory.Exists(dir))
+            {
+                Directory.CreateDirectory(dir);
+            }
+            else
+            {
+                DirectoryInfo di = new DirectoryInfo(dir);
+
+                foreach (FileInfo file in di.GetFiles())
+                {
+                    file.Delete();
+                }
+            }
+
+            Parallel.For(0, nombreFitxers, (i) =>
+            {
                 using (FileStream fs = File.Create(dir + "\\fitxer" + i + ".txt"))
                 {
                     rndChar = randomChars();
-                    //fs.Write(,0,);
-                    //fs.Write(info, 0, info.Length);
+                    using (StreamWriter sw_fs = new StreamWriter(fs))
+                    {
+                        sw_fs.Write(rndChar);
+                    }
                 }
-                    
-            }
+            });
         }
+
 
         private string randomChars()
         {
+            int limitCaracters = Int32.Parse(txtbox_lletres.Text);
+            int randomChar;
+            string textFitxer = "";
+            char charAleatorio;
 
-            return "";
+            for (int i = 0; i < limitCaracters; i++)
+            {
+                Random rndCharInt = new Random(RNGCrypto());
+
+                randomChar = rndCharInt.Next(0, 5);
+
+                charAleatorio = vocalsXifrades[randomChar].vowel;
+
+                for(int j = 0; j < vocalsXifrades.Count; j++)
+                {
+                    if (charAleatorio.Equals(vocalsXifrades[j].vowel))
+                    {
+                        textFitxer += vocalsXifrades[j].encoded + "\n";
+                    }
+                }
+            }
+
+            return textFitxer;
         }
+
+        #endregion
+
+        //private void crearZip()
+        //{
+        //    var zipFile = @"C:\data\myzip.zip";
+        //    var files = Directory.GetFiles(@"c:\data");
+
+        //    using (var archive = ZipFile.Open(zipFile, ZipArchiveMode.Create))
+        //    {
+        //        foreach (var fPath in files)
+        //        {
+        //            archive.CreateEntryFromFile(fPath, Path.GetFileName(fPath));
+        //        }
+        //    }
+        //}
+
     }
 
     public class codificacio
