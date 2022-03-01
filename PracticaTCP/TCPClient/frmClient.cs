@@ -8,6 +8,8 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
+using System.Net.Sockets;
+
 namespace TCPClient
 {
     public partial class frmClient : Form
