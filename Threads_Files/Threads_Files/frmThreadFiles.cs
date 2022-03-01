@@ -3,6 +3,8 @@ using System.Collections;
 using System.Collections.Generic;
 
 using System.ComponentModel;
+using System.IO;
+using System.IO.Compression;
 using System.Security.Cryptography;
 using System.Threading;
 using System.Threading.Tasks;
@@ -14,7 +16,11 @@ namespace Threads_Files
     {
         List<codificacio> vocalsXifrades;
 
-        private static string dir = Application.StartupPath + "\\fitxers";
+        private int numFitxers;
+
+        private static string dirGeneral = Application.StartupPath;
+        private static string dirFitxers = Application.StartupPath + "\\fitxers";
+        private static string dirCompressio = Application.StartupPath + "\\fitxers.zip";
 
         public frmThreadFiles()
         {
@@ -115,13 +121,18 @@ namespace Threads_Files
             {
                 if(Int32.Parse(txtbox_files.Text) >= 100 && Int32.Parse(txtbox_lletres.Text) >= 1000)
                 {
+                    numFitxers = Int32.Parse(txtbox_files.Text);
+
                     Thread t1 = new Thread(existeixDirectori);
                     t1.Start(); // Inicia el fil de la creacio del directori "fitxers"
-                    MessageBox.Show("Fitxers Generats!");
+                    MessageBox.Show("Fitxers Generats!");                    
 
-                    Thread t2 = new Thread(crearZip);
-                    t2.Start();
-                    MessageBox.Show("Compressió realitzada!");
+                    if (!t1.IsAlive)
+                    {
+                        Thread t2 = new Thread(crearZip);
+                        t2.Start(numFitxers);
+                        MessageBox.Show("Compressió de " + numFitxers + " realitzada!");
+                    }
                 }
                 else
                 {
@@ -141,15 +152,14 @@ namespace Threads_Files
         private void existeixDirectori()
         {
             string rndChar;
-            int nombreFitxers = Int32.Parse(txtbox_files.Text);
 
-            if (!Directory.Exists(dir))
+            if (!Directory.Exists(dirFitxers))
             {
-                Directory.CreateDirectory(dir);
+                Directory.CreateDirectory(dirFitxers);
             }
             else
             {
-                DirectoryInfo di = new DirectoryInfo(dir);
+                DirectoryInfo di = new DirectoryInfo(dirFitxers);
 
                 foreach (FileInfo file in di.GetFiles())
                 {
@@ -157,9 +167,9 @@ namespace Threads_Files
                 }
             }
 
-            Parallel.For(0, nombreFitxers, (i) =>
+            Parallel.For(0, numFitxers, (i) =>
             {
-                using (FileStream fs = File.Create(dir + "\\fitxer" + i + ".txt"))
+                using (FileStream fs = File.Create(dirFitxers + "\\fitxer" + i + ".txt"))
                 {
                     rndChar = randomChars();
                     using (StreamWriter sw_fs = new StreamWriter(fs))
@@ -200,19 +210,40 @@ namespace Threads_Files
 
         #endregion
 
-        //private void crearZip()
-        //{
-        //    var zipFile = @"C:\data\myzip.zip";
-        //    var files = Directory.GetFiles(@"c:\data");
+        private void crearZip(Object nombreFitxers)
+        {
+            if (File.Exists(dirCompressio))
+            {
+                File.Delete(dirCompressio);
+            }
 
-        //    using (var archive = ZipFile.Open(zipFile, ZipArchiveMode.Create))
-        //    {
-        //        foreach (var fPath in files)
-        //        {
-        //            archive.CreateEntryFromFile(fPath, Path.GetFileName(fPath));
-        //        }
-        //    }
-        //}
+            string zipFile = dirCompressio;
+            string[] files = Directory.GetFiles(dirFitxers);
+
+            using (ZipArchive archive = ZipFile.Open(zipFile, ZipArchiveMode.Create))
+            {
+                for (int i = 0; i < Int32.Parse(nombreFitxers.ToString()); i++)
+                {
+                    archive.CreateEntryFromFile(dirFitxers + "\\fitxer" + i + ".txt", "fitxer" + i + ".txt");
+                }
+                foreach (var fPath in files)
+                {
+                    archive.CreateEntryFromFile(fPath, Path.GetFileName(fPath));
+                }
+            }
+
+            //string[] files = Directory.GetFiles(dirFitxers);
+
+            //using (ZipArchive zipFile = ZipFile.Open(dirGeneral, ZipArchiveMode.Update))
+            //{
+            //    foreach(string filePath in files)
+            //    {
+            //        zipFile.CreateEntryFromFile(filePath, dirFitxers+"\\"+filePath+".txt");
+            //    }
+            //}
+
+            //ZipFile.CreateFromDirectory(dirFitxers, dirCompressio);
+        }
 
     }
 
