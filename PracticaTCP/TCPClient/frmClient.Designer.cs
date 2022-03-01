@@ -57,6 +57,7 @@
             this.btn_config.TabIndex = 11;
             this.btn_config.Text = "Configuració";
             this.btn_config.UseVisualStyleBackColor = true;
+            this.btn_config.Click += new System.EventHandler(this.btn_config_Click);
             // 
             // btn_desconnect
             // 
@@ -67,6 +68,7 @@
             this.btn_desconnect.TabIndex = 12;
             this.btn_desconnect.Text = "Desconnectar";
             this.btn_desconnect.UseVisualStyleBackColor = true;
+            this.btn_desconnect.Click += new System.EventHandler(this.btn_desconnect_Click);
             // 
             // groupBox2
             // 
@@ -95,6 +97,7 @@
             this.btn_sendMessage.TabIndex = 6;
             this.btn_sendMessage.Text = "Enviar missatge";
             this.btn_sendMessage.UseVisualStyleBackColor = true;
+            this.btn_sendMessage.Click += new System.EventHandler(this.btn_sendMessage_Click);
             // 
             // label4
             // 
@@ -215,6 +218,7 @@
             this.btn_comprovarXarxa.TabIndex = 0;
             this.btn_comprovarXarxa.Text = " Comprovar xarxa";
             this.btn_comprovarXarxa.UseVisualStyleBackColor = true;
+            this.btn_comprovarXarxa.Click += new System.EventHandler(this.btn_comprovarXarxa_Click);
             // 
             // frmClient
             // 

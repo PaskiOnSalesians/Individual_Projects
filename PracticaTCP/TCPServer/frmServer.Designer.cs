@@ -29,12 +29,12 @@
         private void InitializeComponent()
         {
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.lbx_Missatges = new System.Windows.Forms.ListBox();
             this.txb_port = new System.Windows.Forms.TextBox();
             this.btn_desconnect = new System.Windows.Forms.Button();
             this.btn_connect = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            this.lbx_Missatges = new System.Windows.Forms.ListBox();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -55,6 +55,14 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Enviament dades";
             // 
+            // lbx_Missatges
+            // 
+            this.lbx_Missatges.FormattingEnabled = true;
+            this.lbx_Missatges.Location = new System.Drawing.Point(58, 147);
+            this.lbx_Missatges.Name = "lbx_Missatges";
+            this.lbx_Missatges.Size = new System.Drawing.Size(336, 199);
+            this.lbx_Missatges.TabIndex = 5;
+            // 
             // txb_port
             // 
             this.txb_port.Location = new System.Drawing.Point(58, 36);
@@ -72,6 +80,7 @@
             this.btn_desconnect.TabIndex = 3;
             this.btn_desconnect.Text = "Desconnectar";
             this.btn_desconnect.UseVisualStyleBackColor = true;
+            this.btn_desconnect.Click += new System.EventHandler(this.btn_desconnect_Click);
             // 
             // btn_connect
             // 
@@ -82,6 +91,7 @@
             this.btn_connect.TabIndex = 2;
             this.btn_connect.Text = "Connectar";
             this.btn_connect.UseVisualStyleBackColor = true;
+            this.btn_connect.Click += new System.EventHandler(this.btn_connect_Click);
             // 
             // label2
             // 
@@ -102,14 +112,6 @@
             this.label1.Size = new System.Drawing.Size(26, 13);
             this.label1.TabIndex = 0;
             this.label1.Text = "Port";
-            // 
-            // lbx_Missatges
-            // 
-            this.lbx_Missatges.FormattingEnabled = true;
-            this.lbx_Missatges.Location = new System.Drawing.Point(58, 147);
-            this.lbx_Missatges.Name = "lbx_Missatges";
-            this.lbx_Missatges.Size = new System.Drawing.Size(336, 199);
-            this.lbx_Missatges.TabIndex = 5;
             // 
             // frmServer
             // 

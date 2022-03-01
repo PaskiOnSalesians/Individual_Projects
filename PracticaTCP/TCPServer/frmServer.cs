@@ -16,5 +16,15 @@ namespace PracticaTCP
         {
             InitializeComponent();
         }
+
+        private void btn_connect_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btn_desconnect_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
