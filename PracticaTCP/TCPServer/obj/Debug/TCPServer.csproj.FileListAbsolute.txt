@@ -1,0 +1,10 @@
+C:\Users\Paski\Documents\GitHub\Projectes-Individuals-Salesians\PracticaTCP\TCPServer\bin\Debug\PracticaTCP.exe.config
+C:\Users\Paski\Documents\GitHub\Projectes-Individuals-Salesians\PracticaTCP\TCPServer\bin\Debug\PracticaTCP.exe
+C:\Users\Paski\Documents\GitHub\Projectes-Individuals-Salesians\PracticaTCP\TCPServer\bin\Debug\PracticaTCP.pdb
+C:\Users\Paski\Documents\GitHub\Projectes-Individuals-Salesians\PracticaTCP\TCPServer\obj\Debug\TCPServer.csproj.AssemblyReference.cache
+C:\Users\Paski\Documents\GitHub\Projectes-Individuals-Salesians\PracticaTCP\TCPServer\obj\Debug\PracticaTCP.frmServer.resources
+C:\Users\Paski\Documents\GitHub\Projectes-Individuals-Salesians\PracticaTCP\TCPServer\obj\Debug\PracticaTCP.Properties.Resources.resources
+C:\Users\Paski\Documents\GitHub\Projectes-Individuals-Salesians\PracticaTCP\TCPServer\obj\Debug\TCPServer.csproj.GenerateResource.cache
+C:\Users\Paski\Documents\GitHub\Projectes-Individuals-Salesians\PracticaTCP\TCPServer\obj\Debug\TCPServer.csproj.CoreCompileInputs.cache
+C:\Users\Paski\Documents\GitHub\Projectes-Individuals-Salesians\PracticaTCP\TCPServer\obj\Debug\PracticaTCP.exe
+C:\Users\Paski\Documents\GitHub\Projectes-Individuals-Salesians\PracticaTCP\TCPServer\obj\Debug\PracticaTCP.pdb

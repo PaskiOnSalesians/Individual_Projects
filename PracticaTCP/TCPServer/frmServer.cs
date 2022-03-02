@@ -4,6 +4,7 @@ using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Linq;
+using System.Net.Sockets;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -12,6 +13,7 @@ namespace PracticaTCP
 {
     public partial class frmServer : Form
     {
+        TcpListener listener;
         public frmServer()
         {
             InitializeComponent();
@@ -19,12 +21,13 @@ namespace PracticaTCP
 
         private void btn_connect_Click(object sender, EventArgs e)
         {
-
+            listener = new TcpListener(System.Net.IPAddress.Any, Int32.Parse(txb_port.Text));
+            listener.Start();
         }
 
         private void btn_desconnect_Click(object sender, EventArgs e)
         {
-
+            listener.Stop();
         }
     }
 }

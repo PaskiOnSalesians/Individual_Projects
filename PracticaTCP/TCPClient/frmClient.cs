@@ -9,6 +9,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 
 using System.Net.Sockets;
+using System.Net.NetworkInformation;
 
 namespace TCPClient
 {
@@ -37,13 +38,16 @@ namespace TCPClient
         private void btn_comprovarXarxa_Click(object sender, EventArgs e)
         {
             string stringBool;
-            bool pingCorrecte = false;
+            int comptadorPing;
 
             pnl_status.BackColor = Color.Yellow;
 
-            for(int i = 0; i < 10; i++)
-            {
-                if (pingCorrecte)
+            comptadorPing = 10; // S'han de fer 10 pings
+            while(comptadorPing > 0) {
+                Ping myPing = new Ping();
+                PingReply reply = myPing.Send("127.0.0.1", 2828);
+
+                if (reply.Address != null)
                 {
                     stringBool = "OK";
                 }
@@ -52,7 +56,9 @@ namespace TCPClient
                     stringBool = "NOK";
                 }
 
-                lbx_console.Text = "Ping" + i + " - " + stringBool;
+                lbx_console.Text = "Ping" + comptadorPing + " - " + stringBool;
+
+                comptadorPing--;
             }
         }
     }
