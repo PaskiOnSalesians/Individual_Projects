@@ -35,31 +35,60 @@ namespace TCPClient
 
         }
 
+        #region Comprovar la xarxa
         private void btn_comprovarXarxa_Click(object sender, EventArgs e)
         {
-            string stringBool;
-            int comptadorPing;
+            string stringBool, controlError = "";
+            int comptadorPing, comptadorPingCorrecte;
 
             pnl_status.BackColor = Color.Yellow;
 
-            comptadorPing = 10; // S'han de fer 10 pings
-            while(comptadorPing > 0) {
+            comptadorPingCorrecte = 0;
+            comptadorPing = 0;
+            while (comptadorPing < 10)
+            {
                 Ping myPing = new Ping();
-                PingReply reply = myPing.Send("127.0.0.1", 2828);
+                PingReply reply = myPing.Send("127.0.0.1", 5);
 
                 if (reply.Address != null)
                 {
                     stringBool = "OK";
+                    comptadorPingCorrecte++;
+                }
+                else if(reply.Address == null)
+                {
+                    stringBool = "NOK";
+                    controlError = "NoPing";
                 }
                 else
                 {
                     stringBool = "NOK";
+                    controlError = "NoNet";
                 }
 
-                lbx_console.Text = "Ping" + comptadorPing + " - " + stringBool;
-
-                comptadorPing--;
+                lbx_console.Items.Add("Ping" + comptadorPing + " - " + stringBool);
+                comptadorPing++;
+            }
+            
+            if (comptadorPingCorrecte == 10)
+            {
+                pnl_status.BackColor = Color.Green;
+                lb_statusInfo.Text = "Connexió correcte";
+                lb_statusInfo.ForeColor = Color.Green;
+            }
+            else if(controlError.Equals("NoPing"))
+            {
+                pnl_status.BackColor = Color.Red;
+                lb_statusInfo.Text = "Ping no contesta";
+                lb_statusInfo.ForeColor = Color.Red;
+            }
+            else
+            {
+                pnl_status.BackColor = Color.Red;
+                lb_statusInfo.Text = "Xarxa no disponible";
+                lb_statusInfo.ForeColor = Color.Red;
             }
         }
+        #endregion
     }
 }

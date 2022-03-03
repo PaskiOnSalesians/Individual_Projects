@@ -1,0 +1,17 @@
+C:\Users\Paski\Documents\GitHub\Projectes-Individuals-Salesians\PracticaTCP\Client_Server_Launcher\bin\Debug\Client_Server_Launcher.exe.config
+C:\Users\Paski\Documents\GitHub\Projectes-Individuals-Salesians\PracticaTCP\Client_Server_Launcher\bin\Debug\Client_Server_Launcher.exe
+C:\Users\Paski\Documents\GitHub\Projectes-Individuals-Salesians\PracticaTCP\Client_Server_Launcher\bin\Debug\Client_Server_Launcher.pdb
+C:\Users\Paski\Documents\GitHub\Projectes-Individuals-Salesians\PracticaTCP\Client_Server_Launcher\bin\Debug\PracticaTCP.exe
+C:\Users\Paski\Documents\GitHub\Projectes-Individuals-Salesians\PracticaTCP\Client_Server_Launcher\bin\Debug\TCPClient.exe
+C:\Users\Paski\Documents\GitHub\Projectes-Individuals-Salesians\PracticaTCP\Client_Server_Launcher\bin\Debug\TCPClient.pdb
+C:\Users\Paski\Documents\GitHub\Projectes-Individuals-Salesians\PracticaTCP\Client_Server_Launcher\bin\Debug\TCPClient.exe.config
+C:\Users\Paski\Documents\GitHub\Projectes-Individuals-Salesians\PracticaTCP\Client_Server_Launcher\bin\Debug\PracticaTCP.pdb
+C:\Users\Paski\Documents\GitHub\Projectes-Individuals-Salesians\PracticaTCP\Client_Server_Launcher\bin\Debug\PracticaTCP.exe.config
+C:\Users\Paski\Documents\GitHub\Projectes-Individuals-Salesians\PracticaTCP\Client_Server_Launcher\obj\Debug\Client_Server_Launcher.csproj.AssemblyReference.cache
+C:\Users\Paski\Documents\GitHub\Projectes-Individuals-Salesians\PracticaTCP\Client_Server_Launcher\obj\Debug\Client_Server_Launcher.Launcher.resources
+C:\Users\Paski\Documents\GitHub\Projectes-Individuals-Salesians\PracticaTCP\Client_Server_Launcher\obj\Debug\Client_Server_Launcher.Properties.Resources.resources
+C:\Users\Paski\Documents\GitHub\Projectes-Individuals-Salesians\PracticaTCP\Client_Server_Launcher\obj\Debug\Client_Server_Launcher.csproj.GenerateResource.cache
+C:\Users\Paski\Documents\GitHub\Projectes-Individuals-Salesians\PracticaTCP\Client_Server_Launcher\obj\Debug\Client_Server_Launcher.csproj.CoreCompileInputs.cache
+C:\Users\Paski\Documents\GitHub\Projectes-Individuals-Salesians\PracticaTCP\Client_Server_Launcher\obj\Debug\Client_Server_Launcher.csproj.CopyComplete
+C:\Users\Paski\Documents\GitHub\Projectes-Individuals-Salesians\PracticaTCP\Client_Server_Launcher\obj\Debug\Client_Server_Launcher.exe
+C:\Users\Paski\Documents\GitHub\Projectes-Individuals-Salesians\PracticaTCP\Client_Server_Launcher\obj\Debug\Client_Server_Launcher.pdb

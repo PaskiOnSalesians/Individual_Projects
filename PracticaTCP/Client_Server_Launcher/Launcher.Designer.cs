@@ -41,6 +41,7 @@ namespace Client_Server_Launcher
             this.btn_Client.TabIndex = 0;
             this.btn_Client.Text = "Client";
             this.btn_Client.UseVisualStyleBackColor = true;
+            this.btn_Client.Click += new System.EventHandler(this.btn_Client_Click);
             // 
             // btn_server
             // 
