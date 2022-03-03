@@ -10,6 +10,8 @@ using System.Windows.Forms;
 
 using System.Net.Sockets;
 using System.Net.NetworkInformation;
+using System.Threading;
+using System.Xml.Linq;
 
 namespace TCPClient
 {
@@ -27,7 +29,36 @@ namespace TCPClient
 
         private void btn_config_Click(object sender, EventArgs e)
         {
+            string address = txb_ip.Text;
+            string port = txb_port.Text;
 
+            XElement AddressPort = XElement.Load(Application.StartupPath + "\\TCPSettings.xml");
+
+            foreach (XElement n in AddressPort.Descendants("ConfigurationData"))
+            {
+                foreach (XElement k in AddressPort.Descendants("Protocol"))
+                {
+                    foreach (XElement m in AddressPort.Descendants("TCP"))
+                    {
+                        if (m.Name.Equals("IP"))
+                        {
+                            XElement addressElement = new XElement("IP", address);
+                            string currentAddress = "<IP>127.0.0.1</IP>";
+                            addressElement.ReplaceWith(XElement.Parse(currentAddress));
+                        }
+
+                        if (m.Name.Equals("Port"))
+                        {
+                            XElement portElement = new XElement("IP", port);
+                            string currentPort = "<Port>2828</Port>";
+                            portElement.ReplaceWith(XElement.Parse(currentPort));
+                        }
+                    }
+                }
+            }
+            
+
+            MessageBox.Show(AddressPort.ToString());
         }
 
         private void btn_desconnect_Click(object sender, EventArgs e)
@@ -37,6 +68,12 @@ namespace TCPClient
 
         #region Comprovar la xarxa
         private void btn_comprovarXarxa_Click(object sender, EventArgs e)
+        {
+            Thread filComprovar = new Thread(comprovacio);
+            filComprovar.Start();
+        }
+
+        private void comprovacio()
         {
             string stringBool, controlError = "";
             int comptadorPing, comptadorPingCorrecte;
@@ -55,7 +92,7 @@ namespace TCPClient
                     stringBool = "OK";
                     comptadorPingCorrecte++;
                 }
-                else if(reply.Address == null)
+                else if (reply.Address == null)
                 {
                     stringBool = "NOK";
                     controlError = "NoPing";
@@ -69,14 +106,14 @@ namespace TCPClient
                 lbx_console.Items.Add("Ping" + comptadorPing + " - " + stringBool);
                 comptadorPing++;
             }
-            
+
             if (comptadorPingCorrecte == 10)
             {
                 pnl_status.BackColor = Color.Green;
                 lb_statusInfo.Text = "Connexió correcte";
                 lb_statusInfo.ForeColor = Color.Green;
             }
-            else if(controlError.Equals("NoPing"))
+            else if (controlError.Equals("NoPing"))
             {
                 pnl_status.BackColor = Color.Red;
                 lb_statusInfo.Text = "Ping no contesta";

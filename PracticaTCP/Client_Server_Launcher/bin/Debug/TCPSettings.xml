@@ -1,0 +1,13 @@
+<ConfigurationData>
+	<Protocol>
+		<TCP>
+			<IP>127.0.0.1</IP>
+			<Port>6688</Port>
+		</TCP>
+		<UDP>
+			<IP>127.0.0.1</IP>
+			<Port>7799</Port>
+		</UDP>
+	</Protocol>
+</ConfigurationData>
+	
