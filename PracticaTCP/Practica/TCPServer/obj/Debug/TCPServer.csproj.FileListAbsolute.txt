@@ -8,3 +8,14 @@ C:\Users\Paski\Documents\GitHub\Projectes-Individuals-Salesians\PracticaTCP\TCPS
 C:\Users\Paski\Documents\GitHub\Projectes-Individuals-Salesians\PracticaTCP\TCPServer\obj\Debug\TCPServer.csproj.CoreCompileInputs.cache
 C:\Users\Paski\Documents\GitHub\Projectes-Individuals-Salesians\PracticaTCP\TCPServer\obj\Debug\PracticaTCP.exe
 C:\Users\Paski\Documents\GitHub\Projectes-Individuals-Salesians\PracticaTCP\TCPServer\obj\Debug\PracticaTCP.pdb
+E:\Proyectos\Desarrollo\Respositories\Projectes-Individuals-Salesians\PracticaTCP\Practica\TCPServer\bin\Debug\PracticaTCP.exe.config
+E:\Proyectos\Desarrollo\Respositories\Projectes-Individuals-Salesians\PracticaTCP\Practica\TCPServer\bin\Debug\PracticaTCP.exe
+E:\Proyectos\Desarrollo\Respositories\Projectes-Individuals-Salesians\PracticaTCP\Practica\TCPServer\bin\Debug\PracticaTCP.pdb
+E:\Proyectos\Desarrollo\Respositories\Projectes-Individuals-Salesians\PracticaTCP\Practica\TCPServer\obj\Debug\TCPServer.csproj.AssemblyReference.cache
+E:\Proyectos\Desarrollo\Respositories\Projectes-Individuals-Salesians\PracticaTCP\Practica\TCPServer\obj\Debug\TCPServer.csproj.SuggestedBindingRedirects.cache
+E:\Proyectos\Desarrollo\Respositories\Projectes-Individuals-Salesians\PracticaTCP\Practica\TCPServer\obj\Debug\PracticaTCP.frmServer.resources
+E:\Proyectos\Desarrollo\Respositories\Projectes-Individuals-Salesians\PracticaTCP\Practica\TCPServer\obj\Debug\PracticaTCP.Properties.Resources.resources
+E:\Proyectos\Desarrollo\Respositories\Projectes-Individuals-Salesians\PracticaTCP\Practica\TCPServer\obj\Debug\TCPServer.csproj.GenerateResource.cache
+E:\Proyectos\Desarrollo\Respositories\Projectes-Individuals-Salesians\PracticaTCP\Practica\TCPServer\obj\Debug\TCPServer.csproj.CoreCompileInputs.cache
+E:\Proyectos\Desarrollo\Respositories\Projectes-Individuals-Salesians\PracticaTCP\Practica\TCPServer\obj\Debug\PracticaTCP.exe
+E:\Proyectos\Desarrollo\Respositories\Projectes-Individuals-Salesians\PracticaTCP\Practica\TCPServer\obj\Debug\PracticaTCP.pdb

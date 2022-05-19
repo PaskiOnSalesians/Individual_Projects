@@ -121,6 +121,7 @@
             this.Controls.Add(this.groupBox1);
             this.Name = "frmServer";
             this.Text = "Servidor TCP-IP";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.frmServer_FormClosing);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.ResumeLayout(false);

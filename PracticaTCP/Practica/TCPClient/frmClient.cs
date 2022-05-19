@@ -17,14 +17,34 @@ namespace TCPClient
 {
     public partial class frmClient : Form
     {
+        TcpClient client;
+        NetworkStream stream;
+
         public frmClient()
         {
             InitializeComponent();
+            Control.CheckForIllegalCrossThreadCalls = false;
         }
 
         private void btn_sendMessage_Click(object sender, EventArgs e)
         {
+            byte[] sendData;
 
+            try
+            {
+                this.client = new TcpClient(txb_ip.Text, int.Parse(txb_port.Text));
+
+                sendData = UTF8Encoding.UTF8.GetBytes(txb_message.Text);
+                this.stream = this.client.GetStream();
+                this.stream.Write(sendData, 0, sendData.Length);
+
+                this.stream.Close();
+                this.client.Close();
+            }
+            catch (Exception)
+            {
+                MessageBox.Show("Message not sent.");
+            }
         }
 
         private void btn_config_Click(object sender, EventArgs e)
@@ -69,11 +89,11 @@ namespace TCPClient
         #region Comprovar la xarxa
         private void btn_comprovarXarxa_Click(object sender, EventArgs e)
         {
-            Thread filComprovar = new Thread(comprovacio);
+            Thread filComprovar = new Thread(Comprovacio);
             filComprovar.Start();
         }
 
-        private void comprovacio()
+        private void Comprovacio()
         {
             string stringBool, controlError = "";
             int comptadorPing, comptadorPingCorrecte;

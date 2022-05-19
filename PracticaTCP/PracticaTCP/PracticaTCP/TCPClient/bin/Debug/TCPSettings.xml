@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ConfigurationData>
+  <Protocol>
+    <TCP>
+      <IP>127.0.0.1</IP>
+      <Port>6688</Port>
+      <UDP>
+        <IP>127.0.0.1</IP>
+        <Port>7799</Port>
+      </UDP>
+    </TCP>
+  </Protocol>
+</ConfigurationData>
